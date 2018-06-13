@@ -3,13 +3,14 @@
     <title>Registro</title>
     <img src="logo.png">
     <link rel="stylesheet" href="index.css">
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
   </head>
   <body>
-    <div>no introduscas "ñ", ni acentos  Gracias
-      <div>
-        <div>Pais o Region
-          <div>
-            <select class="pais" name="paises">
+    <div>no introduscas "ñ" ni acentos  Gracias
+      <div class="caja">
+        <div id='pais'>Pais o Region
+          <div class="seleccion">
+            <select class="paises" name="paises">
               <optgroup label="paises">
                 <option value="selecciona">Selecciona tu pais o region</option>
                 <option value="Argentina">Argentina</option>
@@ -27,6 +28,46 @@
               </optgroup>
             </select>
           </div>
+        </div>
+        <div class="seleccion">Seleccione su tipo de cuenta
+          <input type="radio" name="t_cuenta" value="gratuito">Gratis
+          <input type="radio" name="t_cuenta" value="premium">Premium
+        </div>
+        <div>
+          nombre
+          <input type="text" name="nombre" value="" placeholder="nombres">
+          <input type="text" name="apellido" value="" placeholder="apellidos">
+        </div>
+        <div>
+          Nombre de empresa:
+          <input type="text" name="empresa" value="" placeholder="opcional">
+        </div>
+        <div>
+          telefono:
+          <input type="text" name="telefono" value="" placeholder="999999999">
+        </div>
+        <div>
+          correo electronico
+          <input type="email" name="" value="" placeholder="example@alguien.com">
+        </div>
+        <div>
+          contraeña
+          <input type="text" name="" value="" placeholder="6-20 caracteres (A-Z, a-z, 0-9)" max="20" min="6">
+        </div>
+        <div>
+          introdusca el codigo mostrado:
+          <input type="text" name="" value="">
+          <input type="text" name="" value="">Am87J
+          <input type="button" name="Enviar" value="enviar">
+        </div>
+        <div class="">
+          añada mas funcionalidades a su cuenta.
+        </div>
+        <div>
+          <input type="radio" name="" value=""> El acuerdo de libre membresia en AlToque.com
+        </div>
+        <div>
+          <input type="radio" name="" value="">Recibir correos electronicos de ofertas y membresias.
         </div>
       </div>
     </div>
