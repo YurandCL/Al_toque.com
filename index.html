@@ -1,75 +1,56 @@
 <html>
-  <head>
-    <title>Registro</title>
-    <img src="logo.png">
-    <link rel="stylesheet" href="index.css">
-    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
-  </head>
-  <body>
-    <div>no introduscas "ñ" ni acentos  Gracias
-      <div class="caja">
-        <div id='pais'>Pais o Region
-          <div class="seleccion">
-            <select class="paises" name="paises">
-              <optgroup label="paises">
-                <option value="selecciona">Selecciona tu pais o region</option>
-                <option value="Argentina">Argentina</option>
-                <option value="Bolivia">Bolivia</option>
-                <option value="Brasil">Brasil</option>
-                <option value="Chile">Chile</option>
-                <option value="Colombia">Colombia</option>
-                <option value="Ecuador">Ecuador</option>
-                <option value="Guyana">Guyana</option>
-                <option value="Paraguay">Paraguay</option>
-                <option value="Peru">Peru</option>
-                <option value="Surinam">Surinam</option>
-                <option value="Uruguay">Uruguay</option>
-                <option value="Venezuela">Venezuela</option>
-              </optgroup>
-            </select>
-          </div>
-        </div>
-        <div class="seleccion">Seleccione su tipo de cuenta
-          <input type="radio" name="t_cuenta" value="gratuito">Gratis
-          <input type="radio" name="t_cuenta" value="premium">Premium
-        </div>
-        <div>
-          nombre
-          <input type="text" name="nombre" value="" placeholder="nombres">
-          <input type="text" name="apellido" value="" placeholder="apellidos">
-        </div>
-        <div>
-          Nombre de empresa:
-          <input type="text" name="empresa" value="" placeholder="opcional">
-        </div>
-        <div>
-          telefono:
-          <input type="text" name="telefono" value="" placeholder="999999999">
-        </div>
-        <div>
-          correo electronico
-          <input type="email" name="" value="" placeholder="example@alguien.com">
-        </div>
-        <div>
-          contraeña
-          <input type="text" name="" value="" placeholder="6-20 caracteres (A-Z, a-z, 0-9)" max="20" min="6">
-        </div>
-        <div>
-          introdusca el codigo mostrado:
-          <input type="text" name="" value="">
-          <input type="text" name="" value="">Am87J
-          <input type="button" name="Enviar" value="enviar">
-        </div>
-        <div class="">
-          añada mas funcionalidades a su cuenta.
-        </div>
-        <div>
-          <input type="radio" name="" value=""> El acuerdo de libre membresia en AlToque.com
-        </div>
-        <div>
-          <input type="radio" name="" value="">Recibir correos electronicos de ofertas y membresias.
-        </div>
-      </div>
-    </div>
-  </body>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="./css/reset.css">
+	<link href="https://fonts.googleapis.com/css?family=Lato:400,900" rel="stylesheet">
+	<link rel="stylesheet" href="./css/main.css">
+	<title>Formulario</title>
+</head>
+<body>
+
+	<div class="container">
+		<div class="form__top">
+			<h2><span>Registro</span></h2>
+		</div>
+		<form class="form__reg" action="">
+			Pais o region: <input class="input" type="text" placeholder="&#9824;  Lugar (Solo disponible en Latinoamerica)" required>
+			Usuario: <input class="input" type="text" placeholder="&#128100;  Usuario" required autofocus>
+		Nombre: <input class="input" type="text" placeholder="&#120159;  Nombre" required autofocus>
+			Apellido: <input class="input" type="text" placeholder="&#120146;  Apellidos" required autofocus>
+            Email: <input class="input" type="email" placeholder="&#9993;  Email" required>
+            Contraseña: <input class="input" type="text" placeholder="&#10016;  insertar minimo 8 caracteres " required>
+						Empresa: <input class="input" type="text" placeholder="&#8962;  Nombre de la empresa(opcional)" required>
+
+
+						<h1>Al crear una cuenta usted:</h1>
+						<label class="container">
+							<input type="checkbox" checked="checked">Estara de acuerdo acerca de nuestros terminos y condiciones de la politica de Altoque.com.
+							<span class="checkmark"></span>
+						</label>
+						<br>
+						<label class="container">
+							<input type="checkbox">Recibir correos electronicos relacionados con miembros.
+							<span class="checkmark"></span>
+						</label>
+						<br>
+						<label class="container">
+							<input type="checkbox">Recibir publicidad y recomendaciones por parte de esta plataforma.
+							<span class="checkmark"></span>
+						</label>
+
+
+            <div class="btn__form">
+
+
+            	<input class="btn__submit" type="submit" value="REGISTRAR">
+            	<input class="btn__reset" type="reset" value="LIMPIAR">
+							<input class="btn__cancel" type="cancel" value="CANCELAR">
+            </div>
+
+		</form>
+	</div>
+
+
+</body>
 </html>
