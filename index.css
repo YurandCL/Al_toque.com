@@ -4,7 +4,7 @@ html {
 }
 
 body {
-	background-color: #9AD1ED;
+	background:url(fondo.jpg)
 }
 
 .container {
@@ -65,9 +65,18 @@ h2 span {
 	border-bottom: none;
 	background-color: #31B1E5;
 	color: white;
+	text-align: center;
 }
 
 .btn__reset {
+	background-color: #EDA135;
+}
+
+.btn__submit {
+	background-color: #EDA135;
+}
+
+.btn__cancel {
 	background-color: #EDA135;
 }
 
@@ -76,5 +85,9 @@ h2 span {
 }
 
 .btn__reset:hover{
-	background-color: #FA9535;
+	background-color: #4C9ED9;
+}
+
+.btn__cancel:hover{
+	background-color: #4C9ED9;
 }
