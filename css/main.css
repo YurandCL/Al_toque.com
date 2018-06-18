@@ -6,18 +6,18 @@
 /*Tipografia*/
 @font-face{
     font-family: "Tittles";
-    src: url("../fonts/goodtime.ttf"), 
-    url("../fonts/goodtime.eot"), 
-    url("../fonts/goodtime.woff"), 
-    url("../fonts/goodtime.woff2"), 
+    src: url("../fonts/goodtime.ttf"),
+    url("../fonts/goodtime.eot"),
+    url("../fonts/goodtime.woff"),
+    url("../fonts/goodtime.woff2"),
     url("../fonts/goodtime.svg");
 }
 @font-face{
     font-family: "Text";
-    src: url("../fonts/sourcesanspro.ttf"), 
-    url("../fonts/sourcesanspro.eot"), 
-    url("../fonts/sourcesanspro.woff"), 
-    url("../fonts/sourcesanspro.woff2"), 
+    src: url("../fonts/sourcesanspro.ttf"),
+    url("../fonts/sourcesanspro.eot"),
+    url("../fonts/sourcesanspro.woff"),
+    url("../fonts/sourcesanspro.woff2"),
     url("../fonts/sourcesanspro.svg");
 }
 /*=====================================================
@@ -165,7 +165,7 @@ figure{
 		z-index: 99;
 	}
 	.No-Scroll{
-		overflow: hidden !important;	
+		overflow: hidden !important;
 	}
 	.NavBar-links{
 		position: absolute;
@@ -197,4 +197,8 @@ figure{
 }
 @media (min-width: 992px){
 
+}
+.logo{
+  width: 40px;
+  height: 40px;
 }
