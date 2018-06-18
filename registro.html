@@ -1,0 +1,64 @@
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="reset_registro.css">
+	<link href="https://fonts.googleapis.com/css?family=Lato:400,900" rel="stylesheet">
+	<link rel="stylesheet" href="index.css">
+	<title>Formulario</title>
+</head>
+<body>
+
+	<div class="container">
+		<div class="form__top">
+			<h2><span>Registro</span></h2>
+		</div>
+		<form class="form__reg" action="">
+			Pais o region: <select class="input">
+				<optgroup label="">
+					<option value="" selected>Seleccione un pais o region</option>
+					<option value="Argentina">Argentina</option>
+					<option value="Bolovia">Bolovia</option>
+					<option value="Brasil">Brasil</option>
+				</optgroup>
+			</select>
+			Usuario: <input class="input" type="text" placeholder="&#128100;  Usuario" required autofocus>
+		Nombre: <input class="input" type="text" placeholder="&#120159;  Nombre" required autofocus>
+			Apellido: <input class="input" type="text" placeholder="&#120146;  Apellidos" required autofocus>
+            Email: <input class="input" type="email" placeholder="&#9993;  Email" required>
+            Contraseña: <input class="input" type="password" placeholder="&#10016;  insertar minimo 8 caracteres " required>
+            Vuelva a escribir su contraseña: <input type="password" class="input" placeholder="&#10016;  insertar minimo 8 caracteres" required>
+						Empresa: <input class="input" type="text" placeholder="&#8962;  Nombre de la empresa(opcional)" required>
+
+
+						<h1>Al crear una cuenta usted:</h1>
+						<label class="container">
+							<input type="checkbox" checked="checked">Estara de acuerdo acerca de nuestros terminos y condiciones de la politica de Altoque.com.
+							<span class="checkmark"></span>
+						</label>
+						<br>
+						<label class="container">
+							<input type="checkbox">Recibir correos electronicos relacionados con miembros.
+							<span class="checkmark"></span>
+						</label>
+						<br>
+						<label class="container">
+							<input type="checkbox">Recibir publicidad y recomendaciones por parte de esta plataforma.
+							<span class="checkmark"></span>
+						</label>
+
+
+            <div class="btn__form">
+
+
+            	<input class="btn__submit" type="submit" value="REGISTRAR">
+            	<input class="btn__reset" type="reset" value="LIMPIAR">
+							<input class="btn__cancel" type="cancel" value="CANCELAR">
+            </div>
+
+		</form>
+	</div>
+
+
+</body>
+</html>
