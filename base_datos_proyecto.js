@@ -1,19 +1,20 @@
 
 var usuariosSchema = new Schema({
     id_usuario: Schema.Type.ObjectId,
-    usuarios: String,
+    nikname: String,
     contraseña: String
 });
 
 var personasSchema = new Schema({
-    id_persona: Schema.Types.ObjectId,
+	usuario_id: Schema.Type.ObjectId,
     pais: String,
-    nickname: String
-    email: String,
+    nombre: String
+	apellido: String,
+    email: String
 });
 
 var productosSchema = new Schema({
-  id_producto: Schema.Types.ObjectId,
+  
   nombre: String,
   foto: Buffer,
   precio: Number,
@@ -23,7 +24,6 @@ var productosSchema = new Schema({
 });
 
 var enviosSchema = new Schema({
-  id_envio: Schema.Types.ObjectId,
   producto:{
     id_producto: Schema.Types.ObjectId,
     nombre: String,
@@ -34,14 +34,16 @@ var enviosSchema = new Schema({
     origen_producto: String
   }
   usuario: String,
-  direccion: String
+  direccion: String,
+  fecha: String,
+  estado: String
 });
 
 var pagosSchema = new Schema({
   id_pago: Schema.Types.ObjectId,
   metodo: String,
   cantidad: Number
-})
+});
 
 var proveedores = new Schema({
   id_proveedor: Schema.Types.ObjectId,
@@ -56,7 +58,7 @@ var proveedores = new Schema({
   }
   cantidad_otogada: Number,
   precio_unidad: Number
-})
+});
 
 var personal = new Schema({
   id_personal = Schema.Types.ObjectId,
@@ -66,4 +68,4 @@ var personal = new Schema({
   fecha_nac: Date,
   direccion: String,
   email: String
-})
+});
