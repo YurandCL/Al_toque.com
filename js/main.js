@@ -76,6 +76,6 @@ $(document).ready(function(){
 			slideIndex2 = 1;
 		}
 		slides2[slideIndex2-1].style.display = "block";
-		setTimeout(showSlides2,2000);
+		setTimeout(showSlides2,4000);
 	}
 });
