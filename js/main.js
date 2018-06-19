@@ -60,6 +60,10 @@ $(document).ready(function(){
 			slideIndex = 1;
 		}
 		slides[slideIndex-1].style.display = "block";
+<<<<<<< HEAD
 		setTimeout(showSlides,2000);
+=======
+		setTimeout(showSlides,7000);
+>>>>>>> a8977fa3f7b91c8a15c76b2af4821611d7700242
 	}
 });
