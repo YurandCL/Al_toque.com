@@ -34,4 +34,15 @@ $(document).ready(function(){
 	});
 	/*Mostrar tooltips*/
 	$('.tooltipped').tooltip({delay: 50});
+
+	$( "#btn_agregar" ).click(function() {
+  	$('td').eq("0").replaceWith("<td>Zapatilla</td>");
+		$('td').eq("1").replaceWith("<td>S/229</td>");
+	});
+
+	$( "#btn_quitar1" ).click(function() {
+  	$('td').eq("0").replaceWith("<td>Producto #1</td>");
+		$('td').eq("1").replaceWith("<td>----</td>");
+	});
+
 });

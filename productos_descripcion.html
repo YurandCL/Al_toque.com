@@ -5,8 +5,9 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Productos</title>
 	<link rel="stylesheet" type="text/css" href="css/main.css">
-	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-	<script>window.jQuery || document.write('<script src="js/jquery-1.11.2.min.js"><\/script>')</script>
+	<script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.min.js">
+
+	</script>
 	<script src="js/materialize.min.js" ></script>
 	<script src="js/main.js" ></script>
 </head>
@@ -49,6 +50,42 @@
 						<a class="btn-floating waves-effect waves-light green tooltipped" data-position="bottom" data-tooltip="Confirm purchase"><i class="zmdi zmdi-money"></i></a>
 					</p>
 				</div>
+
+				<!----------------------------------------------------------------------------->
+				<div class="col s12 m6 valign">
+					<table class="centered highlight responsive-table">
+				        <thead>
+				          	<tr>
+								<th>Producto</th>
+								<th>Precio</th>
+				          	</tr>
+				        </thead>
+				        <tbody>
+					        <tr>
+					            <td>Producto #1</td>
+					            <td>----</td>
+											<td><button type="button" id="btn_quitar1" class="boton_q">Quitar del carrito</button><br><br></td>
+					        </tr>
+					        <tr>
+					            <td>Producto #2</td>
+					            <td>----</td>
+											<td><button type="button" id="btn_quitar2" class="boton_q">Quitar del carrito</button><br><br></td>
+					        </tr>
+					        <tr>
+					            <td>Producto #3</td>
+					            <td>----</td>
+											<td><button type="button" id="btn_quitar3" class="boton_q">Quitar del carrito</button><br><br></td>
+					        </tr>
+				        	<tr>
+				        		<td>Total</td>
+				        		<td>----</td>
+										<td><button type="button" id="btn_quitar4" class="boton_q">Quitar del carrito</button><br><br></td>
+				        	</tr>
+				        </tbody>
+      				</table>
+				</div>
+				<!----------------------------------------------------------------------------->
+
 			</div>
 		</div>
 	</div>
@@ -72,7 +109,7 @@
 								<button type="button" name="button">41.5</button>
 								<button type="button" name="button">42</button>
 								<button type="button" name="button">otros</button><br><br>
-								<button type="button" name="button" class="boton">Agregar al carrito</button><br><br>
+								<button type="button" id="btn_agregar" class="boton">Agregar al carrito</button><br><br>
 
 							</div>
 					</div>

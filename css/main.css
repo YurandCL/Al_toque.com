@@ -285,3 +285,22 @@ figure{
 .boton:hover{
   background-color:#bf2626;
 }
+
+.boton_q:hover{
+  background-color:#3225bf;
+}
+
+
+.boton_q{
+  background: #5446f2;
+  width: 10%;
+  border-radius: 0;
+  height: 42px;
+  transition: padding .3s ease;
+  z-index: 0;
+  position: relative;
+  text-align: center;
+  cursor: pointer;
+  color: white;
+  position: absolute;
+}
