@@ -1,70 +1,219 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
 <head>
 	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" href="reset_registro.css">
-	<link href="https://fonts.googleapis.com/css?family=Lato:400,900" rel="stylesheet">
-	<link rel="stylesheet" href="index.css">
-	<title>Formulario</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Al toque</title>
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+	<script>window.jQuery || document.write('<script src="js/jquery-1.11.2.min.js"><\/script>')</script>
+	<script src="js/materialize.min.js" ></script>
+	<script src="js/main.js" ></script>
 </head>
 <body>
-
-	<div class="container">
-		<div class="form__top">
-			<h2><span>Registro</span></h2>
+<!------------------------------------------------------------------------------>
+	<!--Este es la parte navegable de la pagina-->
+	<nav class="NavBar full">
+		<div class="row">
+			<div class="tittles NavBar-logo col s12 m3">
+					<!--este "p" le da el estilo a la imagen como si estuviera seleccionado-->
+					<p></p>
+				<img src="assets/img/logo_altoque.png" height="40px">
+			</div>
+			<ul class="NavBar-links col m9">
+				<li><a href="home.html" class="waves-effect">Login</a></li>
+				<li><a href="registro.html" class="waves-effect">Registro</a></li>
+			</ul>
+			<i class="zmdi zmdi-more-vert full btn-menu hide-on-med-and-up waves-effect"></i>
 		</div>
-		<form class="form__reg" action="">
-			Pais o region: <select class="input">
-				<optgroup label="">
-					<option value="" selected>Seleccione un pais o region</option>
-					<option value="Argentina">Argentina</option>
-					<option value="Bolovia">Bolivia</option>
-					<option value="Brasil">Brasil</option>
-					<option value="Chile">Chile</option>
-					<option value="Colomabia">Colomabia</option>
-					<option value="Ecuador">Ecuador</option>
-					<option value="Guyana">Guyana</option>
-					<option value="Paraguay">Paraguay</option>
-					<option value="Perú">Perú</option>
-					<option value="Surinam">Surinam</option>
-					<option value="Urugay">Urugay</option>
-					<option value="Venezuela">Venezuela</option>
-				</optgroup>
-			</select>
-			Usuario: <input class="input" type="text" placeholder="&#128100;  Usuario" required autofocus>
-		Nombre: <input class="input" type="text" placeholder="&#120159;  Nombre" required autofocus>
-			Apellido: <input class="input" type="text" placeholder="&#120146;  Apellidos" required autofocus>
-            Email: <input class="input" type="email" placeholder="&#9993;  Email" required>
-            Contraseña: <input class="input" type="password" placeholder="&#10016;  insertar minimo 8 caracteres " required>
-            Vuelva a escribir su contraseña: <input type="password" class="input" placeholder="&#10016;  insertar minimo 8 caracteres" required>
-						Empresa: <input class="input" type="text" placeholder="&#8962;  Nombre de la empresa(opcional)" required>
+	</nav>
+	<!--------------------------------------------------------------------------->
 
-
-						<h1>Al crear una cuenta usted:</h1>
-						<label class="container">
-							<input type="checkbox" checked="checked">Estara de acuerdo acerca de nuestros terminos y condiciones de la politica de Altoque.com.
-							<span class="checkmark"></span>
-						</label>
-						<br>
-						<label class="container">
-							<input type="checkbox">Recibir correos electronicos relacionados con miembros.
-							<span class="checkmark"></span>
-						</label>
-						<br>
-						<label class="container">
-							<input type="checkbox">Recibir publicidad y recomendaciones por parte de esta plataforma.
-							<span class="checkmark"></span>
-						</label>
-
-
-            <div class="btn__form">
-            	<input class="btn__submit" type="submit" value="REGISTRAR">
-            	<input class="btn__reset" type="reset" value="LIMPIAR">
-							<input class="btn__cancel" type="cancel" value="CANCELAR">
-            </div>
-
-		</form>
+	<div class="full ShoppingCart valign-wrapper">
+		<div class="container valign">
+			<div class="row valign-wrapper">
+				<div class="col s12 m6 valign">
+					<p class="center-align" style="color: #2F9FF3;">
+						<i class="zmdi zmdi-shopping-cart zmdi-hc-5x"></i>
+					</p>
+					<p class="center-align">
+						<a class="btn-floating waves-effect waves-light red tooltipped" data-position="bottom" data-tooltip="Empty cart" style="margin-right: 17px;"><i class="zmdi zmdi-delete"></i></a>
+						<a class="btn-floating waves-effect waves-light green tooltipped" data-position="bottom" data-tooltip="Confirm purchase"><i class="zmdi zmdi-money"></i></a>
+					</p>
+				</div>
+				<!----------------------------------------------------------------------------->
+				<div class="col s12 m6 valign">
+					<table class="centered highlight responsive-table">
+				        <thead>
+				          	<tr>
+								<th>Producto</th>
+								<th>Precio</th>
+				          	</tr>
+				        </thead>
+				        <tbody>
+					        <tr>
+					            <td>Producto #1</td>
+					            <td>$7</td>
+					        </tr>
+					        <tr>
+					            <td>Producto #2</td>
+					            <td>$7</td>
+					        </tr>
+					        <tr>
+					            <td>Producto #3</td>
+					            <td>$7</td>
+					        </tr>
+				        	<tr>
+				        		<td>Total</td>
+				        		<td>$21</td>
+				        	</tr>
+				        </tbody>
+      				</table>
+				</div>
+				<!----------------------------------------------------------------------------->
+			</div>
+		</div>
 	</div>
+
+	<header class="full header valign-wrapper">
+		<div class="container valign">
+			<div class="row">
+				<div class="col s12 m6">
+					<figure>
+						<img src="assets/img/electrodomesticos.png"  alt="Header" class="responsive-img center-box">
+					</figure>
+				</div>
+				<div class="col s12 m6">
+					<h5 class="tittles center-align">Electrodomesticos</h5>
+					<p class="flow-text">
+						Artículos para el hogar cuyo uso se aplica al momento de preparar alimentos
+						para nuestro día a día.
+					</p>
+				</div>
+			</div>
+		</div>
+	</header>
+	<section class="full new-prod">
+		<h5 class="tittles center-align">Algunos de nuestros productos</h5>
+		<div class="container">
+			<div class="row">
+				<div class="col s12 m6 l4">
+					<div class="card hoverable">
+						<figure class="card-image">
+							<img src="assets/img/microondas.png" >
+							<figcaption class="card-title">Microondas</figcaption>
+						</figure>
+						<div class="card-content">
+							<p>
+								Con este producto useted podra calentar su comida en poco tiempo,
+								también podría preparar una pizza en tan solo unos segundos
+							</p>
+						</div>
+						<div class="card-action">
+							<a href="#!">Algunas referencias</a>
+						</div>
+					</div>
+				</div>
+				<div class="col s12 m6 l4">
+					<div class="card hoverable">
+						<figure class="card-image">
+							<img src="assets/img/refrigerador.png" >
+							<figcaption class="card-title">Refrigerador</figcaption>
+						</figure>
+						<div class="card-content">
+							<p>
+								Con este aparato podrá mantener su comida libre de que se malogre
+								si en caso no pudo terminar de comer, se conservará fresco y usted
+								podrá disfrutar de su comida cuando vuelva a tener hambre
+							</p>
+						</div>
+						<div class="card-action">
+							<a href="#!">Algunas referencias</a>
+						</div>
+					</div>
+				</div>
+				<div class="col s12 m6 l4">
+					<div class="card hoverable">
+						<figure class="card-image">
+							<img src="assets/img/licuadora.png" >
+							<figcaption class="card-title">Licuadora</figcaption>
+						</figure>
+						<div class="card-content">
+							<p>
+								Con este Electrodomestico usted podrá hacer varios tipos de jugos
+								de pura fruta si así lo desea,  también podría disfrutar de ricas
+								ocopas o limonadas frozen hechas en casa.
+							</p>
+						</div>
+						<div class="card-action">
+							<a href="#!">Algunas referencias</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="full promo">
+		<div class="container">
+			<div class="row">
+				<div class="col s12">
+					<h5 class="tittles center-align">Formas de Pago</h5>
+					<p>
+
+					</p>
+				</div>
+			    <div class="col s12 m4">
+			    	<p class="center-align">
+			        	<i class="zmdi zmdi-card-giftcard zmdi-hc-5x"></i>
+			    	</p>
+			        <p class="center-align flow-text">Cancela al entregar</p>
+			        <p>
+			        	El producto se cancelará cuando se le entrege a las manos.
+			        </p>
+			    </div>
+			    <div class="col s12 m4">
+			    	<p class="center-align">
+			        	<i class="zmdi zmdi-card zmdi-hc-5x"></i>
+			    	</p>
+			        <p class="center-align flow-text">Tarjeta de Credito</p>
+			        <p>
+			        	Puede cancelar el producto por medio de su tarjeta de credito.
+			        </p>
+			    </div>
+			    <div class="col s12 m4">
+			    	<p class="center-align">
+			        	<i class="zmdi zmdi-money zmdi-hc-5x"></i>
+			    	</p>
+			        <p class="center-align flow-text">Efectivo</p>
+			        <p>
+			        	Depositenos su confianza en la compra y de paso su dinero
+			        </p>
+			    </div>
+		    </div>
+		</div>
+	</section>
+	<footer class="footer">
+		<div class="container">
+			<div class="row">
+				<div class="col s12 m6">
+					<h5>Nosotros</h5>
+					<p>
+						Somos una organización sin fines de lucro que está dispuesta a venderte
+						los productos de la marca que prefieres al precio que prefieres.
+					</p>
+				</div>
+				<div class="col s12 m6">
+					<h5 class="center-align">Encuentranos en...</h5>
+					<ul class="center-align">
+						<li><a href="https://www.facebook.com/yuran.colomalinares"><i class="zmdi zmdi-facebook"></i> &nbsp; Facebook</a></li>
+						<li><a href="#!"><i class="zmdi zmdi-twitter"></i> &nbsp; Twitter</a></li>
+						<li><a href="#!"><i class="zmdi zmdi-google-plus"></i> &nbsp; Google+</a></li>
+						<li><a href="#!"><i class="zmdi zmdi-instagram"></i> &nbsp; Instagram</a></li>
+					</ul>
+				</div>
+				<div class="col s12 tittles footer-copyright">AlToque.com &copy; 2018</div>
+			</div>
+		</div>
+	</footer>
 </body>
 </html>
