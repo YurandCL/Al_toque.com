@@ -310,7 +310,7 @@ figure{
   position: relative;
   margin: auto;
 }
-.mySlides{
+.mySlides, .mySlides2{
   display: none;
 }
 .numbertext{
