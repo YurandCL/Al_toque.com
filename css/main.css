@@ -209,8 +209,7 @@ figure{
 }
 
 .card{
-  width: 150%;
-
+  width: 100%;
 }
 
 #di{
@@ -338,8 +337,8 @@ figure{
 /*aqui termina el diseño css del slide*/
 /*----------------------------------------------------------------------*/
 
-.elec_1, .elec_2, .elec_3{
-  width: 500px; height: 500px;
+.elec{
+  width: 450px; height: 450px;
   border: black 5px solid;
 }
 
