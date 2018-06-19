@@ -44,5 +44,22 @@ $(document).ready(function(){
   	$('td').eq("0").replaceWith("<td>Producto #1</td>");
 		$('td').eq("1").replaceWith("<td>----</td>");
 	});
+//---------------------------------------------------------------
 
+//uso del slide
+	var slideIndex = 0;
+	showSlides();
+	function showSlides(){
+		var i;
+		var slides=document.getElementsByClassName("mySlides");
+		for(i=0; i<slides.length; i++){
+			slides[i].style.display = "none";
+		}
+		slideIndex++;
+		if(slideIndex > slides.length){
+			slideIndex = 1;
+		}
+		slides[slideIndex-1].style.display = "block";
+		setTimeout(showSlides,10000);
+	}
 });
