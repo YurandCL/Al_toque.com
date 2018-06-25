@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Al toque</title>
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+	<script src="js/materialize.min.js" ></script>
+	<script src="js/main.js" ></script>
+
+	<link rel="stylesheet" type="text/css" href="css/carrito.css">
+	<script src="js/carrito.js" ></script>
+</head>
+<body>
+<!------------------------------------------------------------------------------>
+	<!--Este es la parte navegable de la pagina-->
+	<nav class="NavBar full">
+		<div class="row">
+			<div class="tittles NavBar-logo col s12 m3">
+					<!--este "p" le da el estilo a la imagen como si estuviera seleccionado-->
+					<p></p>
+				<img src="assets/img/logo_altoque.png" height="40px">
+			</div>
+			<ul class="NavBar-links col m9">
+				<li><a href="home.html" class="waves-effect">Hogar</a></li>
+				<li><a href="products.html" class="waves-effect">Productos</a></li>
+				<li><a href="#!" class="waves-effect btn-shopcart">Carrito de Compras</a></li>
+			</ul>
+			<i class="zmdi zmdi-more-vert full btn-menu hide-on-med-and-up waves-effect"></i>
+		</div>
+	</nav>
+	<!--------------------------------------------------------------------------->
+
+	<div class="full ShoppingCart valign-wrapper">
+		<div class="container valign">
+			<div class="row valign-wrapper">
+				<div class="col s12 m6 valign">
+					<p class="center-align" style="color: #2F9FF3;">
+						<i class="zmdi zmdi-shopping-cart zmdi-hc-5x"></i>
+					</p>
+					<p class="center-align">
+						<a class="btn-floating waves-effect waves-light red tooltipped" data-position="bottom" data-tooltip="Empty cart" style="margin-right: 17px;"><i class="zmdi zmdi-delete"></i></a>
+						<a class="btn-floating waves-effect waves-light green tooltipped" data-position="bottom" data-tooltip="Confirm purchase"><i class="zmdi zmdi-money"></i></a>
+					</p>
+				</div>
+				<!----------------------------------------------------------------------------->
+				<div class="col s12 m6 valign">
+					<table class="centered highlight responsive-table">
+				        <thead>
+				          	<tr>
+								<th>Producto</th>
+								<th>Precio</th>
+				          	</tr>
+				        </thead>
+				        <tbody>
+					        <tr>
+					            <td>Producto #1</td>
+					            <td>$7</td>
+					        </tr>
+					        <tr>
+					            <td>Producto #2</td>
+					            <td>$7</td>
+					        </tr>
+					        <tr>
+					            <td>Producto #3</td>
+					            <td>$7</td>
+					        </tr>
+				        	<tr>
+				        		<td>Total</td>
+				        		<td>$21</td>
+				        	</tr>
+				        </tbody>
+      				</table>
+				</div>
+				<!----------------------------------------------------------------------------->
+			</div>
+		</div>
+	</div>
+
+	<div class="contenedor">
+		<img src="assets/img/zapatilla.jpg" class="img">
+		<div class="dent_cont">
+			<p>ZAPATILLAS C77124 SUPERSTAR PARA HOMBRE</p>
+			<a class="SKU">SKU: 2025168015169</a>
+			<img src="assets/img/entrega.png" class="ent">
+
+			<div class="conte_comp">
+				<a class="cant">Cantidad</a>
+				<a class="preci_uni">Precio unidad</a>
+				<a class="preci_tota">Precio total</a>
+				<a class="precio" id="precio_uni">S/2,100.55</a>
+				<a class="total" id="precio_total">S/2,100.55</a>
+				<div class="conte_aume">
+					<button type="button" class="aume" id="menos">-</button>
+					<input type="text" value="" size="1" maxlength="3" class="cont" id="cant">
+					<button type="button" class="aume" id="mas">+</button>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="contenedor">
+
+	</div>
+
+	<div class="contenedor">
+
+	</div>
+
+	<div class="contenedor">
+
+	</div>
+
+	<div class="contenedor">
+
+	</div>
+</body>
+</html>

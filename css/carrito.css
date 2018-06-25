@@ -1,10 +1,83 @@
+body{
+  background-color: #f9fbfc;
+
+}
+.menu{
+  margin: -0.6% -0.51%;
+  border: 3px solid #2bbbff;
+  background-color:#2bbbff;
+}
+
+.nav{
+  width: 70%;
+  position: absolute;
+  /* border: 3px solid black; */
+  margin: -3.7% 78% -50% 80%;
+  transform: scale(1.7);
+  margin-left: 85%;
+}
+
+/* .as{
+  border: 3px solid black;
+  width: 15%;
+  position: static;
+  cursor: pointer;
+  line-height: 40px;
+  margin-left: 3%;
+  margin-right: -8%;
+  float: left;
+}
+
+.as:hover{
+  background-color: #20a8e8;
+} */
+
+.div1{
+  float: left;
+  /* border: 1px solid black; */
+  cursor: pointer;
+  width: 6%;
+  display:inline-block;
+  text-align:center;
+  padding: 1.15%;
+}
+.div2{
+  float: left;
+  /* border: 1px solid black; */
+  cursor: pointer;
+  width: 8%;
+  display:inline-block;
+  text-align:center;
+  padding: 1.15%;
+}
+.div3{
+  float: left;
+  /* border: 1px solid black; */
+  cursor: pointer;
+  width: 13%;
+  display:inline-block;
+  text-align:center;
+  padding: 1.15%;
+}
+
+.div1:hover, .div2:hover, .div3:hover{
+  background-color: #26a4e0;
+  transition: all .3s ease-out;
+}
+
+.men{
+  color: white;
+  text-decoration:none;
+}
+
 .logo{
-  width: 50%;
-  height: 50%;
+  margin: -0.1% -0.3% -0.5%;
+  width: 20%;
+  height: 20%;
 }
 
 .contenedor{
-  /* border: 5px solid black; */
+  border: 5px solid black;
   margin-top: 2%;
   margin-left: 10%;
   margin-right: 10%;
@@ -24,8 +97,9 @@
 
 .dent_cont{
   /* border: 5px solid black; */
-  margin: -16% 37% 0% 20%;
-  padding: 7.5%;
+  /* margin: -16% 37% 0% 20%; */
+  padding: 7.7%;
+  margin: -16.5% 37% 0% 20%;
 
 }
 
@@ -52,13 +126,14 @@ p{
 
 .conte_comp{
   position: absolute;
-  width: 17%;
+  width: 17.5%;
   /* border: 5px solid black; */
-  margin: -6.5% 5% 0% 27%;
-  padding: 6.1%;
+  margin: -6% 5% 0% 27.6%;
+  padding: 5.7%;
 }
 .conte_aume{
   position: absolute;
+  width: 40%;
   /* border: 5px solid black; */
   margin: -13.5% 5% 1% 37%
 }
@@ -111,4 +186,20 @@ p{
 
 #menos, #mas{
   cursor: pointer;
+}
+
+.copy{
+  border: 3px solid black;
+  /* background-color: #2bbbff;
+  width: 30%;
+  margin: 15%; */
+  padding: 3%;
+  margin: 6% -0.51%;
+  border: 3px solid #2bbbff;
+  background-color:#2bbbff;
+}
+
+#al{
+  color: white;
+  font-size: 250%;
 }
