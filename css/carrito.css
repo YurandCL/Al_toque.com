@@ -1,0 +1,114 @@
+.logo{
+  width: 50%;
+  height: 50%;
+}
+
+.contenedor{
+  /* border: 5px solid black; */
+  margin-top: 2%;
+  margin-left: 10%;
+  margin-right: 10%;
+  background-color: white;
+}
+
+.img{
+  width: 17%;
+  margin: 2% 0 1% 2%;
+}
+
+.ent{
+  width: 10%;
+  margin: -1% 0 1% -5.5%;
+  position: absolute;
+}
+
+.dent_cont{
+  /* border: 5px solid black; */
+  margin: -16% 37% 0% 20%;
+  padding: 7.5%;
+
+}
+
+p{
+  margin-left: -5.5%;
+  margin-top: -5%;;
+  position: absolute;
+  font-size: 16px;
+  color: #4b4b4b;
+  font-weight: bold;
+  font-size: 130%
+}
+
+.SKU{
+  margin-left: -5.5%;
+  margin-top: -3.5%;;
+  position: absolute;
+  color: #7e7e7e;
+  font-size: 12px;
+  font-family: montserratlight;
+  font-weight: bold;
+  font-size: 100%
+}
+
+.conte_comp{
+  position: absolute;
+  width: 17%;
+  /* border: 5px solid black; */
+  margin: -6.5% 5% 0% 27%;
+  padding: 6.1%;
+}
+.conte_aume{
+  position: absolute;
+  /* border: 5px solid black; */
+  margin: -13.5% 5% 1% 37%
+}
+
+.cont{
+  text-align: center;
+}
+
+.cant{
+  margin-left: -5.5%;
+  margin-top: -14%;
+  position: absolute;
+  font-size: 130%;
+  color: #757575;
+  font-size: 130%
+}
+
+.preci_uni{
+  margin-left: -5.5%;
+  margin-top: -2%;
+  position: absolute;
+  font-size: 130%;
+  color: #757575;
+  font-size: 130%
+}
+
+.preci_tota{
+  margin-left: -5.5%;
+  margin-top: 5%;
+  position: absolute;
+  font-size: 16px;
+  color: #757575;
+  font-size: 130%;
+  font-weight: bold;
+}
+
+.precio{
+  position: absolute;
+  margin-left: 45%;
+  margin-top: -1%;
+}
+
+.total{
+  position: absolute;
+  margin-left: 45%;
+  margin-top: 6%;
+  color: red;
+  font-weight: bold;
+}
+
+#menos, #mas{
+  cursor: pointer;
+}

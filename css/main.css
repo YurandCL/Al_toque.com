@@ -210,7 +210,7 @@ figure{
 
 .card{
   width: 100%;
-  
+
 }
 
 #di{
@@ -350,4 +350,18 @@ figure{
 
 .numbertext{
   color: #ccc7c7;
+}
+
+.logo{
+  width: 50%;
+  height: 50%;
+}
+
+.contenedor{
+  border: 5px solid black;
+  margin-top: -10%;
+  margin-left: 10%;
+  margin-right: 10%;
+
+  height: 25%;
 }
