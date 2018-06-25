@@ -4,18 +4,19 @@ body{
 }
 .menu{
   margin: -0.6% -0.51%;
-  border: 3px solid #2bbbff;
-  background-color:#2bbbff;
+  border: 3px solid #2F9FF3;
+  background-color:#2F9FF3;
 }
 
 .nav{
-  width: 70%;
+  width: 80%;
   position: absolute;
   /* border: 3px solid black; */
-  margin: -3.7% 78% -50% 80%;
+  margin: -4% 70% -50% 80%;
   transform: scale(1.7);
   margin-left: 85%;
 }
+
 
 /* .as{
   border: 3px solid black;
@@ -71,7 +72,7 @@ body{
 }
 
 .logo{
-  margin: -0.1% -0.3% -0.5%;
+  margin: -0.1% -0.1% -0.1%;
   width: 20%;
   height: 20%;
 }
