@@ -65,7 +65,7 @@ figure{
 }
 /*====== Barra de navegacion*/
 .NavBar{
-	height: 70px;
+	height: 50px;
 	position: relative;
 	background-color: #2F9FF3;
 	line-height: 50px;
@@ -73,9 +73,9 @@ figure{
 	transition: all .3s ease-in-out;
 }
 .NavBar-logo{
-	height: 80px;
-	line-height: 60px;
-	font-size: 15px;
+	height: 50px;
+	line-height: 50px;
+	font-size: 19px;
 	text-align: center;
 	color: #fff;
 }
@@ -88,13 +88,11 @@ figure{
 	height: 50px;
 	float: none;
 	color: #fff;
-	
 }
 .NavBar-links li a{
-	height: 40px;
+	height: 50px;
 	color: #fff;
 	line-height: 50px;
-	font-size: 25px;
 }
 /*====== Boton menu movil*/
 .btn-menu{
@@ -200,6 +198,7 @@ figure{
 @media (min-width: 992px){
 
 }
+
 .logo{
   width: 40px;
   height: 40px;
