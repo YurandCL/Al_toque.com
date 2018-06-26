@@ -7,8 +7,29 @@
 	<link rel="stylesheet" type="text/css" href="css/main.css">
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
 	<script>window.jQuery || document.write('<script src="js/jquery-1.11.2.min.js"><\/script>')</script>
+	<script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
 	<script src="js/materialize.min.js" ></script>
 	<script src="js/main.js" ></script>
+	<script>
+			// Get the modal
+		/*	var modal = document.getElementById('name');
+
+			// When the user clicks anywhere outside of the modal, close it
+			window.onclick = function(event) {
+				if (event.target == modal) {
+						modal.style.display = "none";
+				}
+			}*/
+
+			$(document).ready(function(){
+				$( "#send" ).click(function() {
+  				var usuario = $("#name").val();
+					var contraseña = $("#password").val();
+	/*comparamos variales con la base de datos*/
+				});
+			});
+
+	</script>
 </head>
 <body>
 
@@ -29,7 +50,7 @@
 				</div>
 			</div>
 			<div class="modal-footer">
-				<a href="home.html" class="waves-effect btn-flat tooltipped" data-position="top" data-tooltip="Send"><i class="zmdi zmdi-mail-send"></i></a>
+				<a  id="send" class="waves-effect btn-flat tooltipped" data-position="top" data-tooltip="Send"><i class="zmdi zmdi-mail-send"></i></a>
 				<a href="#!" class="modal-action modal-close waves-effect btn-flat tooltipped" data-position="top" data-tooltip="Cancel"><i class="zmdi zmdi-close"></i></a>
 			</div>
 		</form>
@@ -149,9 +170,6 @@
 								también podría preparar una pizza en tan solo unos segundos
 							</p>
 						</div>
-						<div class="card-action">
-							<a href="#!">Algunas referencias</a>
-						</div>
 					</div>
 				</div>
 				<div class="col s12 m6 l4">
@@ -167,9 +185,7 @@
 								podrá disfrutar de su comida cuando vuelva a tener hambre
 							</p>
 						</div>
-						<div class="card-action">
-							<a href="#!">Algunas referencias</a>
-						</div>
+
 					</div>
 				</div>
 				<div class="col s12 m6 l4">
@@ -185,9 +201,7 @@
 								ocopas o limonadas frozen hechas en casa.
 							</p>
 						</div>
-						<div class="card-action">
-							<a href="#!">Algunas referencias</a>
-						</div>
+
 					</div>
 				</div>
 			</div>
