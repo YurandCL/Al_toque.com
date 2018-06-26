@@ -30,6 +30,7 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
 	line-height: 1;
+	background:url(assets/img/fondo.jpg);
 }
 ol, ul {
 	list-style: none;
@@ -45,8 +46,4 @@ q:before, q:after {
 table {
 	border-collapse: collapse;
 	border-spacing: 0;
-}
-
-body{
-	background: url(assets/img/fondo.jpg);
 }

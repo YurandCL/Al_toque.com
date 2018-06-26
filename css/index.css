@@ -3,10 +3,6 @@ html {
     font-family: 'Lato', sans-serif;
 }
 
-body {
-	background:url(fondo.jpg)
-}
-
 .container {
 	max-width: 500px;
 	height: auto;
