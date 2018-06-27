@@ -1,0 +1,25 @@
+<p id="notice"><%= notice %></p>
+
+<h1>Al Toques</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @al_toques.each do |al_toque| %>
+      <tr>
+        <td><%= link_to 'Show', al_toque %></td>
+        <td><%= link_to 'Edit', edit_al_toque_path(al_toque) %></td>
+        <td><%= link_to 'Destroy', al_toque, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Al Toque', new_al_toque_path %>

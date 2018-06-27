@@ -1,0 +1,161 @@
+Started GET "/" for 192.168.42.1 at 2018-06-26 19:09:30 -0500
+Cannot render console from 192.168.42.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/tecsup/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/railties-5.2.0/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/tecsup/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/railties-5.2.0/lib/rails/templates/rails/welcome/index.html.erb (122.9ms)
+Completed 200 OK in 392ms (Views: 249.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 192.168.42.1 at 2018-06-26 19:14:16 -0500
+Cannot render console from 192.168.42.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by AlToquesController#index as HTML
+  Rendering al_toques/index.html.erb within layouts/application
+MONGODB | Topology type 'unknown' initializing.
+MONGODB | Server 192.168.42.130:27017 initializing.
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+  Rendered al_toques/index.html.erb within layouts/application (60673.7ms)
+Completed 500 Internal Server Error in 61144ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (No server is available matching preference: #<Mongo::ServerSelector::Primary:0x69928517120220 tag_sets=[] max_staleness=nil> using server_selection_timeout=30 and local_threshold=0.015):
+    10:   </thead>
+    11: 
+    12:   <tbody>
+    13:     <% @al_toques.each do |al_toque| %>
+    14:       <tr>
+    15:         <td><%= link_to 'Show', al_toque %></td>
+    16:         <td><%= link_to 'Edit', edit_al_toque_path(al_toque) %></td>
+  
+app/views/al_toques/index.html.erb:13:in `_app_views_al_toques_index_html_erb___641927641907780291_69928511228040'
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
