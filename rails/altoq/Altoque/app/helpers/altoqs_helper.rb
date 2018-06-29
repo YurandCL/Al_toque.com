@@ -1,0 +1,2 @@
+module AltoqsHelper
+end

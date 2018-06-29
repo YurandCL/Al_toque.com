@@ -1,0 +1,17 @@
+<%= form_with(model: altoq, local: true) do |form| %>
+  <% if altoq.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(altoq.errors.count, "error") %> prohibited this altoq from being saved:</h2>
+
+      <ul>
+      <% altoq.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="actions">
+    <%= form.submit %>
+  </div>
+<% end %>
