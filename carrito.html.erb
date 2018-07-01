@@ -6,11 +6,12 @@
 	<title>Al toque</title>
 	<link rel="stylesheet" type="text/css" href="css/main.css">
 	<script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/carrito.css">
 	<script src="js/materialize.min.js" ></script>
+	<script src="js/carrito.js" ></script>
 	<script src="js/main.js" ></script>
 
-	<link rel="stylesheet" type="text/css" href="css/carrito.css">
-	<script src="js/carrito.js" ></script>
+
 </head>
 <body>
 	<!------------------------------------------------------------------------------>
@@ -23,10 +24,13 @@
 					<img src="assets/img/logook.png" height="90%" >
 				</div>
 				<ul class="NavBar-links col m9">
-					<li><a href="home.html" class="waves-effect">Hogar</a></li>
-					<li><a href="productos.html" class="waves-effect">Productos</a></li>
-	        <li><a href="index.html" class="waves-effect">Cerrar sesion</a></li>
+					<li class="waves-effect"><%= link_to "Hogar", '/home' %></li>
+					<li class="waves-effect"><%= link_to "Productos"  '/productos' %></li>
+	        <li class="waves-effect"><%= link_to "Cerrar Sesion"  '/index' %></li>
 
+					<!--<li><a href="home.html" class="waves-effect">Hogar</a></li>
+					<li><a href="productos.html" class="waves-effect">Productos</a></li>
+					<li><a href="index.html" class="waves-effect">Cerrar sesion</a></li>-->
 				</ul>
 				<i class="zmdi zmdi-more-vert full btn-menu hide-on-med-and-up waves-effect"></i>
 			</div>

@@ -31,21 +31,41 @@
 			<div class="row">
 				<div class="tittles NavBar-logo col s12 m3">
 						<!--este "p" le da el estilo a la imagen como si estuviera seleccionado-->
-
-					<img src="assets/img/logook.png" height="90%" >
+						<%= image_tag("logook.png") %>
+					<!-- <img src="assets/img/logook.png" height="90%" > -->
 				</div>
 				<ul class="NavBar-links col m9">
+					<li class="waves-effect"><%= link_to "Hogar", '/home' %></li>
+					<li class="waves-effect"><%= link_to "Carrito de Compras", '/carrito' %></li>
+					<li class="waves-effect"><%= link_to "Cerrar Sesion", '/index' %></li>
+
+					<!--
 					<li><a href="home.html" class="waves-effect">Hogar</a></li>
 					<li><a href="carrito.html" class="waves-effect">Carrito de Compras</a></li>
 	        <li><a href="index.html" class="waves-effect">Cerrar sesion</a></li>
-
+				 -->
 				</ul>
-				
+				<i class="zmdi zmdi-more-vert full btn-menu hide-on-med-and-up waves-effect"></i>
 			</div>
 		</nav>
 		<!--------------------------------------------------------------------------->
 
 
+	<div class="full ShoppingCart valign-wrapper">
+		<div class="container valign">
+			<div class="row valign-wrapper">
+				<div class="col s12 m6 valign">
+					<p class="center-align" style="color: #2F9FF3;">
+						<i class="zmdi zmdi-shopping-cart zmdi-hc-5x"></i>
+					</p>
+					<p class="center-align">
+						<a class="btn-floating waves-effect waves-light red tooltipped" data-position="bottom" data-tooltip="Empty cart" style="margin-right: 17px;"><i class="zmdi zmdi-delete"></i></a>
+						<a class="btn-floating waves-effect waves-light green tooltipped" data-position="bottom" data-tooltip="Confirm purchase"><i class="zmdi zmdi-money"></i></a>
+					</p>
+				</div>
+			</div>
+		</div>
+	</div>
 	<section>
 		<div class="container">
 			<div class="row">
@@ -54,7 +74,8 @@
 				<div class="col s12 m6 l4">
 					<div class="card1">
 						<div class="card-image waves-effect waves-block waves-light">
-							<img class="activator" src="assets/img/producto_1.png">
+							<%= image_tag("producto_1.png") , class="activator"%>
+							<!--<img class="activator" src="assets/img/producto_1.png">-->
 						</div>
 						<div class="card-content">
 							<span class="card-title activator grey-text text-darken-4"><a href="productos_descripcion.html">ZAPATILLAS SUPERSTAR </a><i class="zmdi zmdi-more-vert right"></i></span>
