@@ -2,7 +2,6 @@
    v2.0 | 20110126
    License: none (public domain)
 */
-
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -30,7 +29,12 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
 	line-height: 1;
+<<<<<<< HEAD
 	background:url(../assets/img/fondo.jpg);
+=======
+	background:url(../assets/img/fondo.png);
+	background-attachment: fixed;
+>>>>>>> c21f9e39b880b648e8a6f33402eb3332fe3bdc03
 }
 ol, ul {
 	list-style: none;

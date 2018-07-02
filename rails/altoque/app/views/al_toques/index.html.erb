@@ -1,0 +1,211 @@
+# encoding: UTF-8
+
+<ul class="NavBar-links col m9">
+   <div class="waves-effect">
+  <!--li><= link_to "Home", bienvenida_index_path %></li>
+  <li><= link_to 'Productos', bienvenida_productos_path %></li-->
+  <!--div class="btn-shopcart"-->
+  <!--li><= link_to "Carrito de Compras", bivenida_carritos_path, class:"btn-shopcart"%></li-->
+  <!--/div-->
+   </div>
+</ul>
+<i class="zmdi zmdi-more-vert full btn-menu hide-on-med-and-up waves-effect"></i>
+</div>
+</nav>
+<header class="full header valign-wrapper">
+<div class="container valign">
+<div class="row">
+  <div class="col s12 m6">
+    <figure>
+      <div class="slideshow-container">
+        <div class="mySlides fade">
+          <div class="numbertext">1 / 4</div>
+          <div alt="Header" class="elec">
+            <%= image_tag "electrodomesticos.png"%>  <!--alt="Header" class="elec"-->
+          </div>
+        </div>
+        <div class="mySlides fade">
+          <div class="numbertext">2 / 4</div>
+          <div alt="Header" class="elec">
+            <%= image_tag "licuadora.png" %>
+          </div>
+        </div>
+        <div class="mySlides fade">
+          <div class="numbertext">3 / 4</div>
+          <div alt="Header" class="elec">
+            <%= image_tag "logo.png" %>
+          </div>
+        </div>
+        <div class="mySlides fade">
+          <div class="numbertext">4 / 4</div>
+          <div alt="Header" class="elec">
+            <%= image_tag "compu1.jpg" %>
+          </div>
+        </div>
+      </div>
+    </figure>
+  </div>
+  <div class="col s12 m6">
+    <div class="slideshow-container">
+      <div class="mySlides2 fade">
+        <h5 class="tittles center-align">Electrodomesticos</h5>
+        <p class="flow-text">
+          Artículos para el hogar cuyo uso se aplica al momento de preparar alimentos
+          para nuestro día a día.
+        </p>
+      </div>
+      <div class="mySlides2 fade">
+        <h5 class="tittles center-align">Licuadora</h5>
+        <p class="flow-text">
+          Artículo creado para poder hacer mas sencilla la tarea de moler los
+          alimentos.
+        </p>
+      </div>
+      <div class="mySlides2 fade">
+        <h5 class="tittles center-align">AlToque.com</h5>
+        <p class="flow-text">
+          Pagína super genial dispuesta a ayudarte a encontrar lo que quieras
+          comprar para tu hogar, tu vida y sin gastar tanto dinero.
+        </p>
+      </div>
+      <div class="mySlides2 fade">
+        <h5 class="tittles center-align">COMPUTACIÓN</h5>
+        <p class="flow-text">
+          Varios objetos que te serviran para tu computadora o todo relacionado
+          a ella.
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+</header>
+<section class="full new-prod">
+<h5 class="tittles center-align">Algunos de nuestros productos</h5>
+<div class="container">
+<div class="row">
+  <div class="col s12 m6 l4">
+    <div class="card hoverable">
+      <figure class="card-image">
+        <div class="producto">
+          <%= image_tag "microondas.png" %>
+          <figcaption class="card-title">Microondas</figcaption>
+        </div>
+      </figure>
+      <div class="card-content">
+        <p>
+          Con este producto useted podra calentar su comida en poco tiempo,
+          también podría preparar una pizza en tan solo unos segundos
+        </p>
+      </div>
+      <div class="card-action">
+        <a href="#!">Algunas referencias</a>
+      </div>
+    </div>
+  </div>
+  <div class="col s12 m6 l4">
+    <div class="card hoverable">
+      <figure class="card-image">
+        <div class="producto">
+          <%= image_tag "refrigerador.png" %>
+          <figcaption class="card-title">Refrigerador</figcaption>
+        </div>
+      </figure>
+      <div class="card-content">
+        <p>
+          Con este aparato podrá mantener su comida libre de que se malogre
+          si en caso no pudo terminar de comer, se conservará fresco y usted
+          podrá disfrutar de su comida cuando vuelva a tener hambre
+        </p>
+      </div>
+      <div class="card-action">
+        <a href="#!">Algunas referencias</a>
+      </div>
+    </div>
+  </div>
+  <div class="col s12 m6 l4">
+    <div class="card hoverable">
+      <figure class="card-image">
+        <div class="producto">
+          <%= image_tag "licuadora.png" %> <!--class="producto"-->
+          <figcaption class="card-title">Licuadora</figcaption>
+        </div>
+      </figure>
+      <div class="card-content">
+        <p>
+          Con este Electrodomestico usted podrá hacer varios tipos de jugos
+          de pura fruta si así lo desea,  también podría disfrutar de ricas
+          ocopas o limonadas frozen hechas en casa.
+        </p>
+      </div>
+      <div class="card-action">
+        <a href="#!">Algunas referencias</a>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+</section>
+<section class="full promo">
+<div class="container">
+<div class="row">
+  <div class="col s12">
+    <h5 class="tittles center-align">Formas de Pago</h5>
+    <p>
+      </p>
+  </div>
+    <div class="col s12 m4">
+      <p class="center-align">
+          <i class="zmdi zmdi-card-giftcard zmdi-hc-5x"></i>
+      </p>
+        <p class="center-align flow-text">Cancela al entregar</p>
+        <p>
+          El producto se cancelará cuando se le entrege a las manos.
+        </p>
+    </div>
+    <div class="col s12 m4">
+      <p class="center-align">
+          <i class="zmdi zmdi-card zmdi-hc-5x"></i>
+      </p>
+        <p class="center-align flow-text">Tarjeta de Credito</p>
+        <p>
+          Puede cancelar el producto por medio de su tarjeta de credito.
+        </p>
+    </div>
+    <div class="col s12 m4">
+      <p class="center-align">
+          <i class="zmdi zmdi-money zmdi-hc-5x"></i>
+      </p>
+        <p class="center-align flow-text">Efectivo</p>
+        <p>
+          Depositenos su confianza en la compra y de paso su dinero
+        </p>
+    </div>
+  </div>
+</div>
+</section>
+<!--p id="notice"><%= notice %></p>
+
+<h1>Al Toques</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @al_toques.each do |al_toque| %>
+      <tr>
+        <td><%= link_to 'Show', al_toque %></td>
+        <td><%= link_to 'Edit', edit_al_toque_path(al_toque) %></td>
+        <td><%= link_to 'Destroy', al_toque, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Al Toque', new_al_toque_path %-->

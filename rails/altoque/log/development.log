@@ -1,0 +1,1252 @@
+Started GET "/" for 192.168.42.1 at 2018-06-26 19:09:30 -0500
+Cannot render console from 192.168.42.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/tecsup/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/railties-5.2.0/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/tecsup/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/railties-5.2.0/lib/rails/templates/rails/welcome/index.html.erb (122.9ms)
+Completed 200 OK in 392ms (Views: 249.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 192.168.42.1 at 2018-06-26 19:14:16 -0500
+Cannot render console from 192.168.42.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by AlToquesController#index as HTML
+  Rendering al_toques/index.html.erb within layouts/application
+MONGODB | Topology type 'unknown' initializing.
+MONGODB | Server 192.168.42.130:27017 initializing.
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+  Rendered al_toques/index.html.erb within layouts/application (60673.7ms)
+Completed 500 Internal Server Error in 61144ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (No server is available matching preference: #<Mongo::ServerSelector::Primary:0x69928517120220 tag_sets=[] max_staleness=nil> using server_selection_timeout=30 and local_threshold=0.015):
+    10:   </thead>
+    11: 
+    12:   <tbody>
+    13:     <% @al_toques.each do |al_toque| %>
+    14:       <tr>
+    15:         <td><%= link_to 'Show', al_toque %></td>
+    16:         <td><%= link_to 'Edit', edit_al_toque_path(al_toque) %></td>
+  
+app/views/al_toques/index.html.erb:13:in `_app_views_al_toques_index_html_erb___641927641907780291_69928511228040'
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+Started GET "/" for 192.168.42.1 at 2018-06-27 09:54:29 -0500
+Cannot render console from 192.168.42.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by AlToquesController#index as HTML
+  Rendering al_toques/index.html.erb within layouts/application
+MONGODB | Topology type 'unknown' initializing.
+MONGODB | Server 192.168.42.130:27017 initializing.
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+  Rendered al_toques/index.html.erb within layouts/application (60351.4ms)
+Completed 500 Internal Server Error in 60459ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (No server is available matching preference: #<Mongo::ServerSelector::Primary:0x69878523023980 tag_sets=[] max_staleness=nil> using server_selection_timeout=30 and local_threshold=0.015):
+    10:   </thead>
+    11: 
+    12:   <tbody>
+    13:     <% @al_toques.each do |al_toque| %>
+    14:       <tr>
+    15:         <td><%= link_to 'Show', al_toque %></td>
+    16:         <td><%= link_to 'Edit', edit_al_toque_path(al_toque) %></td>
+  
+app/views/al_toques/index.html.erb:13:in `_app_views_al_toques_index_html_erb___1802331308943116332_47101092516940'
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+Started GET "/" for 192.168.42.1 at 2018-06-27 10:18:53 -0500
+Cannot render console from 192.168.42.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by AlToquesController#index as HTML
+  Rendering al_toques/index.html.erb within layouts/application
+MONGODB | Topology type 'unknown' initializing.
+MONGODB | Server 192.168.42.130:27017 initializing.
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+  Rendered al_toques/index.html.erb within layouts/application (60308.4ms)
+Completed 500 Internal Server Error in 60364ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (No server is available matching preference: #<Mongo::ServerSelector::Primary:0x69972543372260 tag_sets=[] max_staleness=nil> using server_selection_timeout=30 and local_threshold=0.015):
+    10:   </thead>
+    11: 
+    12:   <tbody>
+    13:     <% @al_toques.each do |al_toque| %>
+    14:       <tr>
+    15:         <td><%= link_to 'Show', al_toque %></td>
+    16:         <td><%= link_to 'Edit', edit_al_toque_path(al_toque) %></td>
+  
+app/views/al_toques/index.html.erb:13:in `_app_views_al_toques_index_html_erb__479820283490919482_47397137317740'
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+MONGODB | Connection refused - connect(2) for 192.168.42.130:27017
+Started GET "/" for 192.168.42.1 at 2018-06-27 10:22:26 -0500
+Cannot render console from 192.168.42.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by AlToquesController#index as HTML
+  Rendering al_toques/index.html.erb within layouts/application
+MONGODB | Topology type 'unknown' initializing.
+MONGODB | Server localhost:27017 initializing.
+MONGODB | Topology type 'unknown' changed to type 'single'.
+MONGODB | Server description for localhost:27017 changed from 'unknown' to 'standalone'.
+MONGODB | There was a change in the members of the 'single' topology.
+MONGODB | localhost:27017 | altoque_development.find | STARTED | {"find"=>"al_toques", "filter"=>{}, "lsid"=>{"id"=><BSON::Binary:0x46915244930340 type=uuid data=0x7415836ee09c48df...>}}
+MONGODB | localhost:27017 | altoque_development.find | SUCCEEDED | 0.042072305000000004s
+  Rendered al_toques/index.html.erb within layouts/application (120.8ms)
+Completed 200 OK in 1611ms (Views: 1592.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/al_toques/new" for 192.168.42.1 at 2018-06-27 10:22:32 -0500
+Cannot render console from 192.168.42.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by AlToquesController#new as HTML
+  Rendering al_toques/new.html.erb within layouts/application
+  Rendered al_toques/_form.html.erb (319.1ms)
+  Rendered al_toques/new.html.erb within layouts/application (321.5ms)
+Completed 200 OK in 374ms (Views: 337.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/al_toques" for 192.168.42.1 at 2018-06-27 10:22:34 -0500
+Cannot render console from 192.168.42.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by AlToquesController#create as HTML
+  Parameters: {"utf8"=>"âœ“", "authenticity_token"=>"ibjMbvp/10LScNAPUyu2g9xN1Iwi2jlIjgFZN15uxVJf5hyx2qCAlv5Lc9unLoDOqbwrkPEhf8scxLe6BFednQ==", "commit"=>"Create Al toque"}
+MONGODB | localhost:27017 | altoque_development.insert | STARTED | {"insert"=>"al_toques", "ordered"=>true, "lsid"=>{"id"=><BSON::Binary:0x46915244930340 type=uuid data=0x7415836ee09c48df...>}, "documents"=>[{"_id"=>BSON::ObjectId('5b33abba17959b0e325e79f1')}]}
+MONGODB | localhost:27017 | altoque_development.insert | SUCCEEDED | 0.12913593199999998s
+Redirected to http://192.168.42.130:3000/al_toques/5b33abba17959b0e325e79f1
+Completed 302 Found in 138ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/al_toques/5b33abba17959b0e325e79f1" for 192.168.42.1 at 2018-06-27 10:22:34 -0500
+Cannot render console from 192.168.42.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by AlToquesController#show as HTML
+  Parameters: {"id"=>"5b33abba17959b0e325e79f1"}
+MONGODB | localhost:27017 | altoque_development.find | STARTED | {"find"=>"al_toques", "filter"=>{"_id"=>BSON::ObjectId('5b33abba17959b0e325e79f1')}, "lsid"=>{"id"=><BSON::Binary:0x46915244930340 type=uuid data=0x7415836ee09c48df...>}}
+MONGODB | localhost:27017 | altoque_development.find | SUCCEEDED | 0.0018553530000000001s
+  Rendering al_toques/show.html.erb within layouts/application
+  Rendered al_toques/show.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 70ms (Views: 34.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/al_toques/5b33abba17959b0e325e79f1/edit" for 192.168.42.1 at 2018-06-27 10:22:38 -0500
+Cannot render console from 192.168.42.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by AlToquesController#edit as HTML
+  Parameters: {"id"=>"5b33abba17959b0e325e79f1"}
+MONGODB | localhost:27017 | altoque_development.find | STARTED | {"find"=>"al_toques", "filter"=>{"_id"=>BSON::ObjectId('5b33abba17959b0e325e79f1')}, "lsid"=>{"id"=><BSON::Binary:0x46915244930340 type=uuid data=0x7415836ee09c48df...>}}
+MONGODB | localhost:27017 | altoque_development.find | SUCCEEDED | 0.000779208s
+  Rendering al_toques/edit.html.erb within layouts/application
+  Rendered al_toques/_form.html.erb (2.1ms)
+  Rendered al_toques/edit.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 114ms (Views: 29.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/al_toques" for 192.168.42.1 at 2018-06-27 10:22:41 -0500
+Cannot render console from 192.168.42.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by AlToquesController#index as HTML
+  Rendering al_toques/index.html.erb within layouts/application
+MONGODB | localhost:27017 | altoque_development.find | STARTED | {"find"=>"al_toques", "filter"=>{}, "lsid"=>{"id"=><BSON::Binary:0x46915244930340 type=uuid data=0x7415836ee09c48df...>}}
+MONGODB | localhost:27017 | altoque_development.find | SUCCEEDED | 0.059669537999999994s
+  Rendered al_toques/index.html.erb within layouts/application (64.3ms)
+Completed 200 OK in 88ms (Views: 86.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/al_toques/5b33abba17959b0e325e79f1" for 192.168.42.1 at 2018-06-27 10:22:43 -0500
+Cannot render console from 192.168.42.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by AlToquesController#show as HTML
+  Parameters: {"id"=>"5b33abba17959b0e325e79f1"}
+MONGODB | localhost:27017 | altoque_development.find | STARTED | {"find"=>"al_toques", "filter"=>{"_id"=>BSON::ObjectId('5b33abba17959b0e325e79f1')}, "lsid"=>{"id"=><BSON::Binary:0x46915244930340 type=uuid data=0x7415836ee09c48df...>}}
+MONGODB | localhost:27017 | altoque_development.find | SUCCEEDED | 0.000515598s
+  Rendering al_toques/show.html.erb within layouts/application
+  Rendered al_toques/show.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 29ms (Views: 22.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/al_toques" for 192.168.42.1 at 2018-06-27 10:22:44 -0500
+Cannot render console from 192.168.42.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by AlToquesController#index as HTML
+  Rendering al_toques/index.html.erb within layouts/application
+MONGODB | localhost:27017 | altoque_development.find | STARTED | {"find"=>"al_toques", "filter"=>{}, "lsid"=>{"id"=><BSON::Binary:0x46915244930340 type=uuid data=0x7415836ee09c48df...>}}
+MONGODB | localhost:27017 | altoque_development.find | SUCCEEDED | 0.0005899669999999999s
+  Rendered al_toques/index.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 32ms (Views: 30.5ms | ActiveRecord: 0.0ms)
+
+
+Started DELETE "/al_toques/5b33abba17959b0e325e79f1" for 192.168.42.1 at 2018-06-27 10:25:13 -0500
+Cannot render console from 192.168.42.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by AlToquesController#destroy as HTML
+  Parameters: {"authenticity_token"=>"OmsEk7FAnMb64OyyZWv82NoJ2FZwiNQ99XYQKMwiie/htnEOlqolps5ANK7OYC3UmJ4I4hGdjASMbINQs7B46A==", "id"=>"5b33abba17959b0e325e79f1"}
+MONGODB | localhost:27017 | altoque_development.find | STARTED | {"find"=>"al_toques", "filter"=>{"_id"=>BSON::ObjectId('5b33abba17959b0e325e79f1')}, "lsid"=>{"id"=><BSON::Binary:0x46915244930340 type=uuid data=0x7415836ee09c48df...>}}
+MONGODB | localhost:27017 | altoque_development.find | SUCCEEDED | 0.001845414s
+MONGODB | localhost:27017 | altoque_development.delete | STARTED | {"delete"=>"al_toques", "ordered"=>true, "lsid"=>{"id"=><BSON::Binary:0x46915244930340 type=uuid data=0x7415836ee09c48df...>}, "deletes"=>[{"q"=>{"_id"=>BSON::ObjectId('5b33abba17959b0e325e79f1')}, "limit"=>1}]}
+MONGODB | localhost:27017 | altoque_development.delete | SUCCEEDED | 0.00115739s
+Redirected to http://192.168.42.130:3000/al_toques
+Completed 302 Found in 24ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/al_toques" for 192.168.42.1 at 2018-06-27 10:25:13 -0500
+Cannot render console from 192.168.42.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by AlToquesController#index as HTML
+  Rendering al_toques/index.html.erb within layouts/application
+MONGODB | localhost:27017 | altoque_development.find | STARTED | {"find"=>"al_toques", "filter"=>{}, "lsid"=>{"id"=><BSON::Binary:0x46915244930340 type=uuid data=0x7415836ee09c48df...>}}
+MONGODB | localhost:27017 | altoque_development.find | SUCCEEDED | 0.001197922s
+  Rendered al_toques/index.html.erb within layouts/application (6.3ms)
+Completed 200 OK in 23ms (Views: 22.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/al_toques" for 192.168.42.1 at 2018-06-27 10:34:28 -0500
+Cannot render console from 192.168.42.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by AlToquesController#index as HTML
+  Rendering al_toques/index.html.erb within layouts/application
+  Rendered al_toques/index.html.erb within layouts/application (38.3ms)
+Completed 500 Internal Server Error in 54ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (Your template was not saved as valid UTF-8. Please either specify UTF-8 as the encoding for your template in your text editor, or mark the template with its encoding by inserting the following as the first line of the template:
+
+# encoding: <name of correct encoding>.
+
+The source of your template was:
+
+<ul class="NavBar-links col m9">
+   <div class="waves-effect">
+  <li><%= link_to "Home", bienvenida_index_path %></li>
+  <li><%= link_to 'Productos', bienvenida_productos_path %></li>
+  <!--div class="btn-shopcart"-->
+  <!--li><= link_to "Carrito de Compras", bivenida_carritos_path, class:"btn-shopcart"%></li-->
+  <!--/div-->
+   </div>
+</ul>
+<i class="zmdi zmdi-more-vert full btn-menu hide-on-med-and-up waves-effect"></i>
+</div>
+</nav>
+<header class="full header valign-wrapper">
+<div class="container valign">
+<div class="row">
+  <div class="col s12 m6">
+    <figure>
+      <div class="slideshow-container">
+        <div class="mySlides fade">
+          <div class="numbertext">1 / 4</div>
+          <div alt="Header" class="elec">
+            <%= image_tag "electrodomesticos.png"%>  <!--alt="Header" class="elec"-->
+          </div>
+        </div>
+        <div class="mySlides fade">
+          <div class="numbertext">2 / 4</div>
+          <div alt="Header" class="elec">
+            <%= image_tag "licuadora.png" %>
+          </div>
+        </div>
+        <div class="mySlides fade">
+          <div class="numbertext">3 / 4</div>
+          <div alt="Header" class="elec">
+            <%= image_tag "logo.png" %>
+          </div>
+        </div>
+        <div class="mySlides fade">
+          <div class="numbertext">4 / 4</div>
+          <div alt="Header" class="elec">
+            <%= image_tag "compu1.jpg" %>
+          </div>
+        </div>
+      </div>
+    </figure>
+  </div>
+  <div class="col s12 m6">
+    <div class="slideshow-container">
+      <div class="mySlides2 fade">
+        <h5 class="tittles center-align">Electrodomesticos</h5>
+        <p class="flow-text">
+          Artículos para el hogar cuyo uso se aplica al momento de preparar alimentos
+          para nuestro día a día.
+        </p>
+      </div>
+      <div class="mySlides2 fade">
+        <h5 class="tittles center-align">Licuadora</h5>
+        <p class="flow-text">
+          Artículo creado para poder hacer mas sencilla la tarea de moler los
+          alimentos.
+        </p>
+      </div>
+      <div class="mySlides2 fade">
+        <h5 class="tittles center-align">AlToque.com</h5>
+        <p class="flow-text">
+          Pagína super genial dispuesta a ayudarte a encontrar lo que quieras
+          comprar para tu hogar, tu vida y sin gastar tanto dinero.
+        </p>
+      </div>
+      <div class="mySlides2 fade">
+        <h5 class="tittles center-align">COMPUTACIÓN</h5>
+        <p class="flow-text">
+          Varios objetos que te serviran para tu computadora o todo relacionado
+          a ella.
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+</header>
+<section class="full new-prod">
+<h5 class="tittles center-align">Algunos de nuestros productos</h5>
+<div class="container">
+<div class="row">
+  <div class="col s12 m6 l4">
+    <div class="card hoverable">
+      <figure class="card-image">
+        <div class="producto">
+          <%= image_tag "microondas.png" %>
+          <figcaption class="card-title">Microondas</figcaption>
+        </div>
+      </figure>
+      <div class="card-content">
+        <p>
+          Con este producto useted podra calentar su comida en poco tiempo,
+          también podría preparar una pizza en tan solo unos segundos
+        </p>
+      </div>
+      <div class="card-action">
+        <a href="#!">Algunas referencias</a>
+      </div>
+    </div>
+  </div>
+  <div class="col s12 m6 l4">
+    <div class="card hoverable">
+      <figure class="card-image">
+        <div class="producto">
+          <%= image_tag "refrigerador.png" %>
+          <figcaption class="card-title">Refrigerador</figcaption>
+        </div>
+      </figure>
+      <div class="card-content">
+        <p>
+          Con este aparato podrá mantener su comida libre de que se malogre
+          si en caso no pudo terminar de comer, se conservará fresco y usted
+          podrá disfrutar de su comida cuando vuelva a tener hambre
+        </p>
+      </div>
+      <div class="card-action">
+        <a href="#!">Algunas referencias</a>
+      </div>
+    </div>
+  </div>
+  <div class="col s12 m6 l4">
+    <div class="card hoverable">
+      <figure class="card-image">
+        <div class="producto">
+          <%= image_tag "licuadora.png" %> <!--class="producto"-->
+          <figcaption class="card-title">Licuadora</figcaption>
+        </div>
+      </figure>
+      <div class="card-content">
+        <p>
+          Con este Electrodomestico usted podrá hacer varios tipos de jugos
+          de pura fruta si así lo desea,  también podría disfrutar de ricas
+          ocopas o limonadas frozen hechas en casa.
+        </p>
+      </div>
+      <div class="card-action">
+        <a href="#!">Algunas referencias</a>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+</section>
+<section class="full promo">
+<div class="container">
+<div class="row">
+  <div class="col s12">
+    <h5 class="tittles center-align">Formas de Pago</h5>
+    <p>
+      </p>
+  </div>
+    <div class="col s12 m4">
+      <p class="center-align">
+          <i class="zmdi zmdi-card-giftcard zmdi-hc-5x"></i>
+      </p>
+        <p class="center-align flow-text">Cancela al entregar</p>
+        <p>
+          El producto se cancelará cuando se le entrege a las manos.
+        </p>
+    </div>
+    <div class="col s12 m4">
+      <p class="center-align">
+          <i class="zmdi zmdi-card zmdi-hc-5x"></i>
+      </p>
+        <p class="center-align flow-text">Tarjeta de Credito</p>
+        <p>
+          Puede cancelar el producto por medio de su tarjeta de credito.
+        </p>
+    </div>
+    <div class="col s12 m4">
+      <p class="center-align">
+          <i class="zmdi zmdi-money zmdi-hc-5x"></i>
+      </p>
+        <p class="center-align flow-text">Efectivo</p>
+        <p>
+          Depositenos su confianza en la compra y de paso su dinero
+        </p>
+    </div>
+  </div>
+</div>
+</section>
+<p id="notice"><%= notice %></p>
+
+<h1>Al Toques</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @al_toques.each do |al_toque| %>
+      <tr>
+        <td><%= link_to 'Show', al_toque %></td>
+        <td><%= link_to 'Edit', edit_al_toque_path(al_toque) %></td>
+        <td><%= link_to 'Destroy', al_toque, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Al Toque', new_al_toque_path %>
+):
+MONGODB | localhost:27017 | admin.endSessions | STARTED | {"endSessions"=>[{"id"=><BSON::Binary:0x46915244930340 type=uuid data=0x7415836ee09c48df...>}]}
+MONGODB | localhost:27017 | admin.endSessions | SUCCEEDED | 0.039900885000000004s
+Started GET "/al_toques" for 192.168.42.1 at 2018-06-27 10:34:46 -0500
+Cannot render console from 192.168.42.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by AlToquesController#index as HTML
+  Rendering al_toques/index.html.erb within layouts/application
+  Rendered al_toques/index.html.erb within layouts/application (4.0ms)
+Completed 500 Internal Server Error in 24ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (Your template was not saved as valid UTF-8. Please either specify UTF-8 as the encoding for your template in your text editor, or mark the template with its encoding by inserting the following as the first line of the template:
+
+# encoding: <name of correct encoding>.
+
+The source of your template was:
+
+<ul class="NavBar-links col m9">
+   <div class="waves-effect">
+  <li><%= link_to "Home", bienvenida_index_path %></li>
+  <li><%= link_to 'Productos', bienvenida_productos_path %></li>
+  <!--div class="btn-shopcart"-->
+  <!--li><= link_to "Carrito de Compras", bivenida_carritos_path, class:"btn-shopcart"%></li-->
+  <!--/div-->
+   </div>
+</ul>
+<i class="zmdi zmdi-more-vert full btn-menu hide-on-med-and-up waves-effect"></i>
+</div>
+</nav>
+<header class="full header valign-wrapper">
+<div class="container valign">
+<div class="row">
+  <div class="col s12 m6">
+    <figure>
+      <div class="slideshow-container">
+        <div class="mySlides fade">
+          <div class="numbertext">1 / 4</div>
+          <div alt="Header" class="elec">
+            <%= image_tag "electrodomesticos.png"%>  <!--alt="Header" class="elec"-->
+          </div>
+        </div>
+        <div class="mySlides fade">
+          <div class="numbertext">2 / 4</div>
+          <div alt="Header" class="elec">
+            <%= image_tag "licuadora.png" %>
+          </div>
+        </div>
+        <div class="mySlides fade">
+          <div class="numbertext">3 / 4</div>
+          <div alt="Header" class="elec">
+            <%= image_tag "logo.png" %>
+          </div>
+        </div>
+        <div class="mySlides fade">
+          <div class="numbertext">4 / 4</div>
+          <div alt="Header" class="elec">
+            <%= image_tag "compu1.jpg" %>
+          </div>
+        </div>
+      </div>
+    </figure>
+  </div>
+  <div class="col s12 m6">
+    <div class="slideshow-container">
+      <div class="mySlides2 fade">
+        <h5 class="tittles center-align">Electrodomesticos</h5>
+        <p class="flow-text">
+          Artículos para el hogar cuyo uso se aplica al momento de preparar alimentos
+          para nuestro día a día.
+        </p>
+      </div>
+      <div class="mySlides2 fade">
+        <h5 class="tittles center-align">Licuadora</h5>
+        <p class="flow-text">
+          Artículo creado para poder hacer mas sencilla la tarea de moler los
+          alimentos.
+        </p>
+      </div>
+      <div class="mySlides2 fade">
+        <h5 class="tittles center-align">AlToque.com</h5>
+        <p class="flow-text">
+          Pagína super genial dispuesta a ayudarte a encontrar lo que quieras
+          comprar para tu hogar, tu vida y sin gastar tanto dinero.
+        </p>
+      </div>
+      <div class="mySlides2 fade">
+        <h5 class="tittles center-align">COMPUTACIÓN</h5>
+        <p class="flow-text">
+          Varios objetos que te serviran para tu computadora o todo relacionado
+          a ella.
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+</header>
+<section class="full new-prod">
+<h5 class="tittles center-align">Algunos de nuestros productos</h5>
+<div class="container">
+<div class="row">
+  <div class="col s12 m6 l4">
+    <div class="card hoverable">
+      <figure class="card-image">
+        <div class="producto">
+          <%= image_tag "microondas.png" %>
+          <figcaption class="card-title">Microondas</figcaption>
+        </div>
+      </figure>
+      <div class="card-content">
+        <p>
+          Con este producto useted podra calentar su comida en poco tiempo,
+          también podría preparar una pizza en tan solo unos segundos
+        </p>
+      </div>
+      <div class="card-action">
+        <a href="#!">Algunas referencias</a>
+      </div>
+    </div>
+  </div>
+  <div class="col s12 m6 l4">
+    <div class="card hoverable">
+      <figure class="card-image">
+        <div class="producto">
+          <%= image_tag "refrigerador.png" %>
+          <figcaption class="card-title">Refrigerador</figcaption>
+        </div>
+      </figure>
+      <div class="card-content">
+        <p>
+          Con este aparato podrá mantener su comida libre de que se malogre
+          si en caso no pudo terminar de comer, se conservará fresco y usted
+          podrá disfrutar de su comida cuando vuelva a tener hambre
+        </p>
+      </div>
+      <div class="card-action">
+        <a href="#!">Algunas referencias</a>
+      </div>
+    </div>
+  </div>
+  <div class="col s12 m6 l4">
+    <div class="card hoverable">
+      <figure class="card-image">
+        <div class="producto">
+          <%= image_tag "licuadora.png" %> <!--class="producto"-->
+          <figcaption class="card-title">Licuadora</figcaption>
+        </div>
+      </figure>
+      <div class="card-content">
+        <p>
+          Con este Electrodomestico usted podrá hacer varios tipos de jugos
+          de pura fruta si así lo desea,  también podría disfrutar de ricas
+          ocopas o limonadas frozen hechas en casa.
+        </p>
+      </div>
+      <div class="card-action">
+        <a href="#!">Algunas referencias</a>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+</section>
+<section class="full promo">
+<div class="container">
+<div class="row">
+  <div class="col s12">
+    <h5 class="tittles center-align">Formas de Pago</h5>
+    <p>
+      </p>
+  </div>
+    <div class="col s12 m4">
+      <p class="center-align">
+          <i class="zmdi zmdi-card-giftcard zmdi-hc-5x"></i>
+      </p>
+        <p class="center-align flow-text">Cancela al entregar</p>
+        <p>
+          El producto se cancelará cuando se le entrege a las manos.
+        </p>
+    </div>
+    <div class="col s12 m4">
+      <p class="center-align">
+          <i class="zmdi zmdi-card zmdi-hc-5x"></i>
+      </p>
+        <p class="center-align flow-text">Tarjeta de Credito</p>
+        <p>
+          Puede cancelar el producto por medio de su tarjeta de credito.
+        </p>
+    </div>
+    <div class="col s12 m4">
+      <p class="center-align">
+          <i class="zmdi zmdi-money zmdi-hc-5x"></i>
+      </p>
+        <p class="center-align flow-text">Efectivo</p>
+        <p>
+          Depositenos su confianza en la compra y de paso su dinero
+        </p>
+    </div>
+  </div>
+</div>
+</section>
+<p id="notice"><%= notice %></p>
+
+<h1>Al Toques</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @al_toques.each do |al_toque| %>
+      <tr>
+        <td><%= link_to 'Show', al_toque %></td>
+        <td><%= link_to 'Edit', edit_al_toque_path(al_toque) %></td>
+        <td><%= link_to 'Destroy', al_toque, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Al Toque', new_al_toque_path %>
+):
+Started GET "/al_toques" for 192.168.42.1 at 2018-06-27 10:38:55 -0500
+Cannot render console from 192.168.42.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by AlToquesController#index as HTML
+  Rendering al_toques/index.html.erb within layouts/application
+  Rendered al_toques/index.html.erb within layouts/application (4.7ms)
+Completed 500 Internal Server Error in 26ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (Your template was not saved as valid UTF-8. Please either specify UTF-8 as the encoding for your template in your text editor, or mark the template with its encoding by inserting the following as the first line of the template:
+
+# encoding: <name of correct encoding>.
+
+The source of your template was:
+
+<ul class="NavBar-links col m9">
+   <div class="waves-effect">
+  <li><%= link_to "Home", bienvenida_index_path %></li>
+  <li><%= link_to 'Productos', bienvenida_productos_path %></li>
+  <!--div class="btn-shopcart"-->
+  <!--li><= link_to "Carrito de Compras", bivenida_carritos_path, class:"btn-shopcart"%></li-->
+  <!--/div-->
+   </div>
+</ul>
+<i class="zmdi zmdi-more-vert full btn-menu hide-on-med-and-up waves-effect"></i>
+</div>
+</nav>
+<header class="full header valign-wrapper">
+<div class="container valign">
+<div class="row">
+  <div class="col s12 m6">
+    <figure>
+      <div class="slideshow-container">
+        <div class="mySlides fade">
+          <div class="numbertext">1 / 4</div>
+          <div alt="Header" class="elec">
+            <%= image_tag "electrodomesticos.png"%>  <!--alt="Header" class="elec"-->
+          </div>
+        </div>
+        <div class="mySlides fade">
+          <div class="numbertext">2 / 4</div>
+          <div alt="Header" class="elec">
+            <%= image_tag "licuadora.png" %>
+          </div>
+        </div>
+        <div class="mySlides fade">
+          <div class="numbertext">3 / 4</div>
+          <div alt="Header" class="elec">
+            <%= image_tag "logo.png" %>
+          </div>
+        </div>
+        <div class="mySlides fade">
+          <div class="numbertext">4 / 4</div>
+          <div alt="Header" class="elec">
+            <%= image_tag "compu1.jpg" %>
+          </div>
+        </div>
+      </div>
+    </figure>
+  </div>
+  <div class="col s12 m6">
+    <div class="slideshow-container">
+      <div class="mySlides2 fade">
+        <h5 class="tittles center-align">Electrodomesticos</h5>
+        <p class="flow-text">
+          Artículos para el hogar cuyo uso se aplica al momento de preparar alimentos
+          para nuestro día a día.
+        </p>
+      </div>
+      <div class="mySlides2 fade">
+        <h5 class="tittles center-align">Licuadora</h5>
+        <p class="flow-text">
+          Artículo creado para poder hacer mas sencilla la tarea de moler los
+          alimentos.
+        </p>
+      </div>
+      <div class="mySlides2 fade">
+        <h5 class="tittles center-align">AlToque.com</h5>
+        <p class="flow-text">
+          Pagína super genial dispuesta a ayudarte a encontrar lo que quieras
+          comprar para tu hogar, tu vida y sin gastar tanto dinero.
+        </p>
+      </div>
+      <div class="mySlides2 fade">
+        <h5 class="tittles center-align">COMPUTACIÓN</h5>
+        <p class="flow-text">
+          Varios objetos que te serviran para tu computadora o todo relacionado
+          a ella.
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+</header>
+<section class="full new-prod">
+<h5 class="tittles center-align">Algunos de nuestros productos</h5>
+<div class="container">
+<div class="row">
+  <div class="col s12 m6 l4">
+    <div class="card hoverable">
+      <figure class="card-image">
+        <div class="producto">
+          <%= image_tag "microondas.png" %>
+          <figcaption class="card-title">Microondas</figcaption>
+        </div>
+      </figure>
+      <div class="card-content">
+        <p>
+          Con este producto useted podra calentar su comida en poco tiempo,
+          también podría preparar una pizza en tan solo unos segundos
+        </p>
+      </div>
+      <div class="card-action">
+        <a href="#!">Algunas referencias</a>
+      </div>
+    </div>
+  </div>
+  <div class="col s12 m6 l4">
+    <div class="card hoverable">
+      <figure class="card-image">
+        <div class="producto">
+          <%= image_tag "refrigerador.png" %>
+          <figcaption class="card-title">Refrigerador</figcaption>
+        </div>
+      </figure>
+      <div class="card-content">
+        <p>
+          Con este aparato podrá mantener su comida libre de que se malogre
+          si en caso no pudo terminar de comer, se conservará fresco y usted
+          podrá disfrutar de su comida cuando vuelva a tener hambre
+        </p>
+      </div>
+      <div class="card-action">
+        <a href="#!">Algunas referencias</a>
+      </div>
+    </div>
+  </div>
+  <div class="col s12 m6 l4">
+    <div class="card hoverable">
+      <figure class="card-image">
+        <div class="producto">
+          <%= image_tag "licuadora.png" %> <!--class="producto"-->
+          <figcaption class="card-title">Licuadora</figcaption>
+        </div>
+      </figure>
+      <div class="card-content">
+        <p>
+          Con este Electrodomestico usted podrá hacer varios tipos de jugos
+          de pura fruta si así lo desea,  también podría disfrutar de ricas
+          ocopas o limonadas frozen hechas en casa.
+        </p>
+      </div>
+      <div class="card-action">
+        <a href="#!">Algunas referencias</a>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+</section>
+<section class="full promo">
+<div class="container">
+<div class="row">
+  <div class="col s12">
+    <h5 class="tittles center-align">Formas de Pago</h5>
+    <p>
+      </p>
+  </div>
+    <div class="col s12 m4">
+      <p class="center-align">
+          <i class="zmdi zmdi-card-giftcard zmdi-hc-5x"></i>
+      </p>
+        <p class="center-align flow-text">Cancela al entregar</p>
+        <p>
+          El producto se cancelará cuando se le entrege a las manos.
+        </p>
+    </div>
+    <div class="col s12 m4">
+      <p class="center-align">
+          <i class="zmdi zmdi-card zmdi-hc-5x"></i>
+      </p>
+        <p class="center-align flow-text">Tarjeta de Credito</p>
+        <p>
+          Puede cancelar el producto por medio de su tarjeta de credito.
+        </p>
+    </div>
+    <div class="col s12 m4">
+      <p class="center-align">
+          <i class="zmdi zmdi-money zmdi-hc-5x"></i>
+      </p>
+        <p class="center-align flow-text">Efectivo</p>
+        <p>
+          Depositenos su confianza en la compra y de paso su dinero
+        </p>
+    </div>
+  </div>
+</div>
+</section>
+<p id="notice"><%= notice %></p>
+
+<h1>Al Toques</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @al_toques.each do |al_toque| %>
+      <tr>
+        <td><%= link_to 'Show', al_toque %></td>
+        <td><%= link_to 'Edit', edit_al_toque_path(al_toque) %></td>
+        <td><%= link_to 'Destroy', al_toque, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Al Toque', new_al_toque_path %>
+):

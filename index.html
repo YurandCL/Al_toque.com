@@ -25,6 +25,12 @@
 				$( "#send" ).click(function() {
   				var usuario = $("#name").val();
 					var contraseña = $("#password").val();
+						if(usuario==="hola" && contraseña==="hola"){
+							$(location).href('home.html')
+						}
+						else{
+							alert("Acceso Denegado, Por favor ponga las credenciales correctas")
+						}
 	/*comparamos variales con la base de datos*/
 				});
 			});
@@ -50,7 +56,7 @@
 				</div>
 			</div>
 			<div class="modal-footer">
-				<a  id="send" class="waves-effect btn-flat tooltipped" data-position="top" data-tooltip="Send" href="home.html"><i class="zmdi zmdi-mail-send"></i></a>
+				<a  id="send" class="waves-effect btn-flat tooltipped" data-position="top" data-tooltip="Send" ><i class="zmdi zmdi-mail-send"></i></a>
 				<a href="#!" class="modal-action modal-close waves-effect btn-flat tooltipped" data-position="top" data-tooltip="Cancel"><i class="zmdi zmdi-close"></i></a>
 			</div>
 		</form>
