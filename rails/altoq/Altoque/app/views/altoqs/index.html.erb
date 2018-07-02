@@ -1,9 +1,9 @@
 		<ul class="NavBar-links col m9">
 		   <div class="waves-effect">
-			<li><%= link_to "Home", index_path %></li>
-			<li><%= link_to 'Productos', productos_path %></li>
-			<!--div class="btn-shopcart"-->
-			<!--li><= link_to "Carrito de Compras", bivenida_carritos_path, class:"btn-shopcart"%></li-->
+			<!--li><= link_to "Home", index_path %></li>
+			<li><= link_to 'Productos', productos_path %></li>
+			<div class="btn-shopcart">
+			<li><= link_to "Carrito de Compras", bivenida_carritos_path, class:"btn-shopcart"%></li-->
 			<!--/div-->
 		   </div>
 		</ul>
@@ -186,28 +186,4 @@
 <p id="notice"><%= notice %></p>
 
 <h1>Al toque</h1>
-
-<table>
-  <thead>
-    <tr>
-      <th colspan="3"></th>
-    </tr>
-  </thead>
-
-  <tbody>
-    <% @altoqs.each do |altoq| %>
-      <tr>
-	<td><%= altoq.nombre %></td>
-	<td><%= altoq.categoria %></td>
-	<td><%= altoque.precio %></td>
-        <td><%= link_to 'Show', altoq %></td>
-        <td><%= link_to 'Edit', edit_altoq_path(altoq) %></td>
-        <td><%= link_to 'Destroy', altoq, method: :delete, data: { confirm: 'Are you sure?' } %></td>
-      </tr>
-    <% end %>
-  </tbody>
-</table>
-
-<br>
-
 <%= link_to 'New Altoq', new_altoq_path %>
