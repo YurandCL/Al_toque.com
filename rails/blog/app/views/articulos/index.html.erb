@@ -1,0 +1,21 @@
+<h1>Listando Artículos</h1>
+
+<%= link_to 'Artículo nuevo', new_articulo_path %>
+
+<table>
+	<tr>
+		<th>Título</th>
+		<th>Texto</th>
+		<th></th>
+	</tr>
+
+	<% @articulos.each do |articulo| %>
+		<tr>
+			<td><%= articulo.title %></td>
+			<td><%= articulo.text %></td>
+			<td><%= link_to 'Mostrar', articulo_path(articulo) %></td>
+			<td><%= link_to 'Editar', edit_articulo_path(articulo) %></td>
+			<td><%= link_to 'Borrar', articulo_path(articulo), method: :delete, data: {confirm: '¿estás seguro?' } %> </td>
+		</tr>
+	<%end%>
+</table>
