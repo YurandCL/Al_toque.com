@@ -1,6 +1,8 @@
 class AltoqsController < ApplicationController
   before_action :set_altoq, only: [:show, :edit, :update, :destroy]
 
+  def login
+  end
   # GET /altoqs
   # GET /altoqs.json
   def index

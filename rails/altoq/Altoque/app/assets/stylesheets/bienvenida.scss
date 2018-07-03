@@ -2,9 +2,9 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
-@import 'normalize.css';
-@import 'materialize.min.css';
-@import 'material-design-iconic-font.min.css';
+@import 'normalize';
+@import 'materialize.min';
+@import 'material-design-iconic-font.min';
 
 /*Tipografia*/
 @font-face{
@@ -355,8 +355,8 @@ figure{
 }
 
 .logo{
-  width: 50%;
-  height: 50%;
+  width: 50% !important;
+  height: 50% !important;
 }
 
 .contenedor{

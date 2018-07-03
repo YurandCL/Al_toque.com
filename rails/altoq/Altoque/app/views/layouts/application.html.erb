@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="es" dir="ltr">
   <head>
     <title>Altoque</title>
     <%= csrf_meta_tags %>
@@ -7,9 +7,6 @@
 
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-    <script src="js/materialize.min.js" ></script>
-    <script src="js/main.js" ></script>
   </head>
 
   <body>
@@ -18,7 +15,7 @@
 		<div class="tittles NavBar-logo col s12 m3">
 		<!--este "p" le da el estilo a la imagen como si estuviera seleccionado-->
 			<p></p>
-			<%= image_tag "logook.png"%>
+			<%= image_tag('logook.png', class: 'logo')%>
 		</div>
 
     <%= yield %>
