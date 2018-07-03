@@ -11,19 +11,7 @@
 	<script src="js/main.js" ></script>
 </head>
 <body>
-	<form id="LoginModal" class="modal modal-fixed-footer">
-		<div class="modal-footer">
-			<a href="#!" class="waves-effect btn-flat tooltipped" data-position="top" data-tooltip="Send"><i class="zmdi zmdi-mail-send"></i></a>
-			<a href="#!" class="modal-action modal-close waves-effect btn-flat tooltipped" data-position="top" data-tooltip="Cancel"><i class="zmdi zmdi-close"></i></a>
-		</div>
-	</form>
-	<form id="RegModal" class="modal modal-fixed-footer">
-		</div>
-		<div class="modal-footer">
-			<a href="#!" class="waves-effect btn-flat tooltipped" data-position="top" data-tooltip="Send"><i class="zmdi zmdi-mail-send"></i></a>
-			<a href="#!" class="modal-action modal-close waves-effect btn-flat tooltipped" data-position="top" data-tooltip="Cancel"><i class="zmdi zmdi-close"></i></a>
-		</div>
-	</form>
+
 
 	<!------------------------------------------------------------------------------>
 		<!--Este es la parte navegable de la pagina-->
@@ -31,13 +19,16 @@
 			<div class="row">
 				<div class="tittles NavBar-logo col s12 m3">
 						<!--este "p" le da el estilo a la imagen como si estuviera seleccionado-->
-
-					<img src="assets/img/logook.png" height="90%" >
+					<%= image_tag "logook.png" %>
+				<!-- <img src="assets/img/logook.png" height="90%" > -->
 				</div>
 				<ul class="NavBar-links col m9">
-					<li><a href="home.html" class="waves-effect">Hogar</a></li>
-					<li><a href="carrito.html" class="waves-effect">Carrito de Compras</a></li>
-	        <li><a href="index.html" class="waves-effect">Cerrar sesion</a></li>
+					<li><%= link_to "Hogar", home_path , class="waves-effect"%></li>
+					<li><%= link_to "Carrito", carrito_path ,class="waves-effect"%></li>
+					<li><%= link_to "Cerrar Sesion", index_path , class="waves-effect"%></li>
+					<!--<li><a href="home.html" class="waves-effect">Hogar</a></li>-->
+					<!--<li><a href="carrito.html" class="waves-effect">Carrito de Compras</a></li>-->
+	        <!--<li><a href="index.html" class="waves-effect">Cerrar sesion</a></li>-->
 
 				</ul>
 
@@ -54,14 +45,13 @@
 				<div class="col s12 m6 l4">
 					<div class="card1">
 						<div class="card-image waves-effect waves-block waves-light">
-							<img class="activator" src="assets/img/producto_1.png">
+							<%= image_tag "producto_1.png" , class="activator"%>
+							<!--<img class="activator" src="assets/img/producto_1.png">-->
 						</div>
 						<div class="card-content">
-							<span class="card-title activator grey-text text-darken-4"><a href="productos_descripcion.html">ZAPATILLAS SUPERSTAR </a><i class="zmdi zmdi-more-vert right"></i></span>
+							<span class="card-title activator grey-text text-darken-4"><%= link_to productos_descripcion_path %><!--<a href="productos_descripcion.html">-->ZAPATILLAS SUPERSTAR<i class="zmdi zmdi-more-vert right"></i></span>
 							<p>Disponible solo para hombres</p>
-
 						</div>
-
 					</div>
 				</div>
 <!---------->
