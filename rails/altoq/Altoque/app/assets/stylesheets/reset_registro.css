@@ -27,10 +27,15 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
+/*
+html{
+	background-image:url('fondo.png');
+}*/
 body {
+	
 	line-height: 1;
-	background:url(../assets/img/fondo.png);
 	background-attachment: fixed;
+
 }
 ol, ul {
 	list-style: none;
