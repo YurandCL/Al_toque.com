@@ -29,12 +29,8 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
 	line-height: 1;
-<<<<<<< HEAD
-	background:url(../assets/img/fondo.jpg);
-=======
 	background:url(../assets/img/fondo.png);
 	background-attachment: fixed;
->>>>>>> c21f9e39b880b648e8a6f33402eb3332fe3bdc03
 }
 ol, ul {
 	list-style: none;

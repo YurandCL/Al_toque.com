@@ -26,7 +26,7 @@
   				var usuario = $("#name").val();
 					var contraseña = $("#password").val();
 						if(usuario==="hola" && contraseña==="hola"){
-							$(location).href('home.html')
+							window.location.href = "home.html";
 						}
 						else{
 							alert("Acceso Denegado, Por favor ponga las credenciales correctas")
