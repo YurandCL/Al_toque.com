@@ -1,12 +1,12 @@
 				<ul class="NavBar-links col m9">
-					<li class="waves-effect"><%= link_to "Hogar", '/home' %></li>
-					<li class="waves-effect"><%= link_to "Carrito de Compras", '/carrito' %></li>
-					<li class="waves-effect"><%= link_to "Cerrar Sesion", '/index' %></li>
+					<li class="waves-effect"><%= link_to "Hogar",  altoqs_index_path() %></li>
+					<li class="waves-effect"><%= link_to "Carrito de Compras", carrito_altoqs_path() %></li>
+					<li class="waves-effect"><%= link_to "Cerrar Sesion", login_altoqs_path() %></li>
 				</ul>
 				<i class="zmdi zmdi-more-vert full btn-menu hide-on-med-and-up waves-effect"></i>
 			</div>
 		</nav>
-		<!--------------------------------------------------------------------------->
+
 
 	<div class="full ShoppingCart valign-wrapper">
 		<div class="container valign">
@@ -31,8 +31,7 @@
 				<div class="col s12 m6 l4">
 					<div class="card1">
 						<div class="card-image waves-effect waves-block waves-light">
-							<%= image_tag("producto_1.png") , class="activator"%>
-							<!--<img class="activator" src="assets/img/producto_1.png">-->
+							<%= image_tag("producto_1.png", class:'activator') %>
 						</div>
 						<div class="card-content">
 							<span class="card-title activator grey-text text-darken-4"><a href="productos_descripcion.html">ZAPATILLAS SUPERSTAR </a><i class="zmdi zmdi-more-vert right"></i></span>
@@ -42,19 +41,8 @@
 
 					</div>
 				</div>
-<!---------->
+
 
 			</div>
 		</div>
 	</section>
-
-<!--------------------------->
-	<footer class="footer">
-		<div class="container">
-			<div class="row">
-				<div class="col s12 tittles footer-copyright">Altoque.com &copy; 2018</div>
-			</div>
-		</div>
-	</footer>
-</body>
-</html>

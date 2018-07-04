@@ -1,10 +1,10 @@
 		<ul class="NavBar-links col m9">
 		   <div class="waves-effect">
-			<!--li><= link_to "Home", index_path %></li>
-			<li><= link_to 'Productos', productos_path %></li>
+			<li><%= link_to "Home", altoqs_index_path() %></li>
+			<li><%= link_to 'Productos', producto_altoqs_path() %></li>
 			<div class="btn-shopcart">
-			<li><= link_to "Carrito de Compras", bivenida_carritos_path, class:"btn-shopcart"%></li-->
-			<!--/div-->
+				<li><%= link_to "Carrito de Compras", carrito_altoqs_path() %></li>
+			</div>
 		   </div>
 		</ul>
 		<i class="zmdi zmdi-more-vert full btn-menu hide-on-med-and-up waves-effect"></i>
@@ -19,7 +19,7 @@
 						<div class="mySlides fade">
 							<div class="numbertext">1 / 4</div>
 							<div alt="Header">
-								<%= image_tag("electrodomesticos.png", class: 'elec') %>  <!--alt="Header" class="elec"-->
+								<%= image_tag("electrodomesticos.png", class: 'elec') %>
 							</div>
 						</div>
 						<div class="mySlides fade">

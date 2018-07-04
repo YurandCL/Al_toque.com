@@ -12,6 +12,7 @@ class AltoqsController < ApplicationController
   
   def carrito
   end
+
   # GET /altoqs
   # GET /altoqs.json
   def index

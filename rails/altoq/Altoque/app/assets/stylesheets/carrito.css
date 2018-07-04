@@ -1,0 +1,234 @@
+body{
+  background-color: #f9fbfc;
+
+}
+.menu{
+  margin: -0.6% -0.51%;
+  border: 3px solid #2F9FF3;
+  background-color:#2F9FF3;
+}
+
+.nav{
+  position: absolute;
+  /* border: 1px solid red; */
+  transform: scale(1.7);
+
+  margin: -3.5% 66.62%;
+  width: 24.5%;
+
+}
+
+
+/* .as{
+  border: 3px solid black;
+  width: 15%;
+  position: static;
+  cursor: pointer;
+  line-height: 40px;
+  margin-left: 3%;
+  margin-right: -8%;
+  float: left;
+}
+
+.as:hover{
+  background-color: #20a8e8;
+} */
+
+nav{
+  margin: 0% 0%;
+  /* border: 1px solid red; */
+  border: none;
+}
+
+.div1{
+
+  float: right;
+  width: 40%;
+  /* border: 1px solid black; */
+  cursor: pointer;
+  display:inline-block;
+  text-align:center;
+  margin-top: -1.51%;
+  padding: 3.7%;
+}
+.div2{
+
+  width: 23%;
+  float: right;
+  /* border: 1px solid black; */
+  cursor: pointer;
+  display:inline-block;
+  text-align:center;
+  margin-top: -1.51%;
+  padding: 3.7%;
+
+}
+.div3{
+  width: 10%;
+  float: right;
+  /* border: 1px solid black; */
+  cursor: pointer;
+  display:inline-block;
+  text-align:center;
+
+  margin-top: -1.51%;
+  padding: 3.7%;
+
+}
+
+.div1:hover, .div2:hover, .div3:hover{
+  background-color: #2196ce;
+  transition: all .3s ease-out;
+}
+
+.men{
+  color: white;
+  text-decoration:none;
+  outline: none !important; -moz-outline-style: none !important;
+}
+
+.logo{
+  margin: -0.1% -0.1% -0.1%;
+  width: 20%;
+  height: 20%;
+}
+
+.contenedor{
+  border: 5px solid black;
+  margin-top: 2%;
+  margin-left: 10%;
+  margin-right: 10%;
+  background-color: white;
+}
+
+.img{
+  width: 17%;
+  margin: 2% 0 1% 2%;
+}
+
+.ent{
+  width: 10%;
+  margin: -1% 0 1% -5.5%;
+  position: absolute;
+}
+
+.dent_cont{
+  /* border: 5px solid black; */
+  /* margin: -16% 37% 0% 20%; */
+  padding: 7.7%;
+  margin: -16.5% 37% 0% 20%;
+
+}
+
+p{
+  margin-left: -5.5%;
+  margin-top: -5%;;
+  position: absolute;
+  font-size: 16px;
+  color: #4b4b4b;
+  font-weight: bold;
+  font-size: 130%
+}
+
+.SKU{
+  margin-left: -5.5%;
+  margin-top: -3.5%;;
+  position: absolute;
+  color: #7e7e7e;
+  font-size: 12px;
+  font-family: montserratlight;
+  font-weight: bold;
+  font-size: 100%
+}
+
+.conte_comp{
+  position: absolute;
+  width: 17.5%;
+  /* border: 5px solid black; */
+  margin: -6% 5% 0% 27.6%;
+  padding: 5.7%;
+}
+.conte_aume{
+  position: absolute;
+  width: 60%;
+  /* border: 5px solid black; */
+  margin: -15% 15% 1% 50%;
+}
+
+.cont{
+  text-align: center;
+}
+
+.cant{
+  margin-left: -5.5%;
+  margin-top: -14%;
+  position: absolute;
+  font-size: 130%;
+  color: #757575;
+  font-size: 130%
+}
+
+.preci_uni{
+  margin-left: -5.5%;
+  margin-top: -2%;
+  position: absolute;
+  font-size: 130%;
+  color: #757575;
+  font-size: 130%
+}
+
+.preci_tota{
+  margin-left: -5.5%;
+  margin-top: 5%;
+  position: absolute;
+  font-size: 16px;
+  color: #757575;
+  font-size: 130%;
+  font-weight: bold;
+}
+
+.precio{
+  position: absolute;
+  margin-left: 45%;
+  margin-top: -1%;
+}
+
+.total{
+  position: absolute;
+  margin-left: 45%;
+  margin-top: 6%;
+  color: red;
+  font-weight: bold;
+}
+
+#menos, #mas{
+  cursor: pointer;
+}
+
+#mas{
+  margin-left: 0%;
+}
+
+#menos{
+  margin:-15%;
+}
+
+#cant{
+  width: 20%;
+  margin-left: 13%;
+}
+.copy{
+  border: 3px solid black;
+  /* background-color: #2bbbff;
+  width: 30%;
+  margin: 15%; */
+  padding: 3%;
+  margin: 6% -0.51%;
+  border: 3px solid #2bbbff;
+  background-color:#2bbbff;
+}
+
+#al{
+  color: white;
+  font-size: 250%;
+}

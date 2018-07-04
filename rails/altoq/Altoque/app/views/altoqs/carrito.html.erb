@@ -1,7 +1,7 @@
 				<ul class="NavBar-links col m9">
-					<li class="waves-effect"><%= link_to "Home", index_ %></li>
-					<li class="waves-effect"><%= link_to "Productos", producto_altoqs_path %></li>
-					<li class="waves-effect"><%= link_to "Cerra Sesion", login_altoqs_path %></li>
+					<li class="waves-effect"><%= link_to "Home", altoqs_index_path() %></li>
+					<li class="waves-effect"><%= link_to "Productos", producto_altoqs_path() %></li>
+					<li class="waves-effect"><%= link_to "Cerra Sesion", login_altoqs_path() %></li>
 				</ul>
 				<i class="zmdi zmdi-more-vert full btn-menu hide-on-med-and-up waves-effect"></i>
 			</div>
@@ -12,7 +12,7 @@
 		<div class="dent_cont">
 			<p>ZAPATILLAS C77124 SUPERSTAR PARA HOMBRE</p>
 			<a class="SKU">SKU: 2025168015169</a>
-			<%= image_tag('entrega.png', class:'ent') %>
+			<%= image_tag('entrega.PNG', class:'ent') %>
 
 			<div class="conte_comp">
 				<a class="cant">Cantidad</a>

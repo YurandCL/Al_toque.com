@@ -78,10 +78,4 @@ $(document).ready(function(){
 		slides2[slideIndex2-1].style.display = "block";
 		setTimeout(showSlides2,4000);
 	}
-
-	$( "#send" ).click(function() {
-		var usuario = $("#name").val();
-		var contraseña = $("#password").val();
-		alert(usuario)
-	});
 });
