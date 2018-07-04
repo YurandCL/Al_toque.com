@@ -3,28 +3,11 @@
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
 @import 'normalize';
-@import 'materialize.min';
-@import 'material-design-iconic-font.min';
 @import 'form_registro';
 @import 'reset_registro';
+@import 'materialize.min';
+@import 'iconos';
 
-/*Tipografia*/
-@font-face{
-    font-family: "Tittles";
-    src: url("../fonts/goodtime.ttf"),
-    url("../fonts/goodtime.eot"),
-    url("../fonts/goodtime.woff"),
-    url("../fonts/goodtime.woff2"),
-    url("../fonts/goodtime.svg");
-}
-@font-face{
-    font-family: "Text";
-    src: url("../fonts/sourcesanspro.ttf"),
-    url("../fonts/sourcesanspro.eot"),
-    url("../fonts/sourcesanspro.woff"),
-    url("../fonts/sourcesanspro.woff2"),
-    url("../fonts/sourcesanspro.svg");
-}
 /*=====================================================
 					Estilos generales
 ======================================================*/

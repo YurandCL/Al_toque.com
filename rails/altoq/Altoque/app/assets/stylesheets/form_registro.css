@@ -1,16 +1,19 @@
-html {
+.cuerpo_css {
 	font-size: 16px;
 	font-family: 'Lato', sans-serif;
+	color: black;
 }
-body{
+.body{
 	background-color: #9AD1ED;
 }
 
-.container {
+.test2 {
 	max-width: 500px;
 	height: auto;
 	background-color: #EFEFEF;
-	margin: 5% auto;
+	margin: auto;
+	/*margin-left: 30%;
+	mrgin-right: 10%;*/
 	padding-bottom: 1rem;
 
 }
@@ -28,7 +31,9 @@ body{
 	color: #CAC8C8;
 	font-size: 18px;
 }
-
+h1 {
+	color: black;
+}
 h2 span {
 	color: #F39B53;
 }
