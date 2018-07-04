@@ -366,3 +366,29 @@ figure{
 
   height: 25%;
 }
+
+#busca{
+  position: absolute;
+  border-bottom: 1px solid #32bfdb;
+  background-color: white;
+  height: 85%;
+  width: 94%;
+  padding-left: 1rem;
+}
+
+#busca:focus{
+  border-bottom: 3px solid #fcb646;
+}
+
+.buscar{
+  width: 37%;
+  margin: -3% 0% 0% 30%;
+  position: absolute
+}
+
+#img_buscar{
+  width: 8%;
+  margin-left: 97%;
+  border: 2px solid black;
+  cursor:pointer;
+}
