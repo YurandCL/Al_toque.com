@@ -72,11 +72,11 @@
             <%= image_tag("logo.png", class: "elec") %>
 	  </div>
 	</div>
-
+	
 	<div class="mySlides fade">
 		<div class="numbertext">4 / 4</div>
 		<div alt="Header" class="elect">
-			<%= image_tag('compu1.jpg', class: 'elec') %>
+			<%= image_tag('compu1.jpg', class: 'elec') %>		
 		</div>
 	</div>
       </div>
@@ -183,33 +183,42 @@
 
     </p>
   </div>
-    <div class="col s12 m4">
-      <p class="center-align">
-          <i class="zmdi zmdi-card-giftcard zmdi-hc-5x"></i>
-      </p>
-        <p class="center-align flow-text">Cancela al entregar</p>
-        <p>
-          El producto se cancelará cuando se le entrege a las manos.
-        </p>
-    </div>
-    <div class="col s12 m4">
-      <p class="center-align">
-          <i class="zmdi zmdi-card zmdi-hc-5x"></i>
-      </p>
-        <p class="center-align flow-text">Tarjeta de Credito</p>
-        <p>
-          Puede cancelar el producto por medio de su tarjeta de credito.
-        </p>
-    </div>
-    <div class="col s12 m4">
-      <p class="center-align">
-          <i class="zmdi zmdi-money zmdi-hc-5x"></i>
-      </p>
-        <p class="center-align flow-text">Efectivo</p>
-        <p>
-          Depositenos su confianza en la compra y de paso su dinero
-        </p>
+	   <div class="col 12 m4">
+    		    <p class="center-align">
+                            <span class="icon-gift"></span>
+	            </p>
+		    <p class="center-align flow-text">Cancela al entregar</p>
+		    <p>
+		            El producto se cancelará cuando se le entrege     a las manos.
+	            </p>
+	    </div>
+            <div class="col s12 m4">
+	            <p class="center-align">
+		            <span class="icon-credit-card"></span>
+	            </p>
+        	    <p class="center-align flow-text">Tarjeta de Credito</p    >
+	            <p>
+ 		           Puede cancelar el producto por medio de su tar    jeta de credito.
+	            </p>
+            </div>
+            <div class="col s12 m4">
+        	    <p class="center-align">
+	        	    <span class="icon-coin-dollar"></span>
+	            </p>
+        	    <p class="center-align flow-text">Efectivo</p>
+	            <p>
+		           Depositenos su confianza en la compra y de pas    o su dinero
+	           </p>
+	   </div>
     </div>
   </div>
 </div>
 </section>
+<script>
+	$(document).ready(function(){
+		$( "#send" ).click(function() {
+			var usuario = $("#name").val();
+			var contraseña = $("#password").val();
+		});
+	});
+</script>

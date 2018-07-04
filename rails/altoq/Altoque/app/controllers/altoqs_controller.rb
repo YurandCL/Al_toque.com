@@ -1,9 +1,16 @@
 class AltoqsController < ApplicationController
   before_action :set_altoq, only: [:show, :edit, :update, :destroy]
-  def registro
+
+  def login
   end
   
-  def login
+  def registro
+  end
+
+  def producto
+  end
+  
+  def carrito
   end
   # GET /altoqs
   # GET /altoqs.json

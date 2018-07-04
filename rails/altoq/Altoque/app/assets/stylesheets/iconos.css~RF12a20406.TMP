@@ -28,21 +28,15 @@
 }
 .icon-coin-dollar:before {
   content: "\e93b";
-  font-size:100px;
-
 }
 .icon-credit-card:before {
   content: "\e93f";
-  font-size:100px;
-
 }
 .icon-printer:before {
   content: "\e954";
 }
 .icon-gift:before {
   content: "\e99f";
-  font-size:100px;
-
 }
 .icon-mail2:before {
   content: "\ea84";
