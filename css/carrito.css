@@ -43,7 +43,7 @@ nav{
 .div1{
 
   float: right;
-  width: 34%;
+  width: 40%;
   /* border: 1px solid black; */
   cursor: pointer;
   display:inline-block;
@@ -152,7 +152,7 @@ p{
   position: absolute;
   width: 60%;
   /* border: 5px solid black; */
-  margin: -20% 15% 1% 50%;
+  margin: -15% 15% 1% 50%;
 }
 
 .cont{
